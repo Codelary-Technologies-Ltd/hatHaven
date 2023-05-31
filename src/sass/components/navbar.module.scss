@@ -1,0 +1,40 @@
+.navBar{
+    background: $primary;
+    width: 100%;
+    margin: 0;
+    color: $secondary;
+    padding: 0.5em 0;
+    .navContainer{
+        justify-content: space-between;
+    }
+    .navHeader, .navIcons, .navContainer, .navIcon{
+        display: flex;
+    }
+    .navHeader{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navIcons{
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .navHead{
+        color: $secondary;
+        margin: 0;
+        font-family: $fontHeading ;
+    }
+    .navList ul{
+        display: flex;
+        gap: 10px;
+    }
+    .navList li{
+        list-style-type: none;
+        font-family: $fontPara;
+    }
+    .navList li:hover{
+        text-decoration: underline;
+    }
+    
+}
