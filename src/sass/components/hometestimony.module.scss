@@ -1,0 +1,39 @@
+.hometestContainer{
+    font-family: $fontPara;
+    background: grey;
+    color: $secondary;
+    padding: 3em 0px;
+    .hometestContain{
+        width: 90%;
+    }
+    .testContain{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .testContainOne{
+        flex: 30%;
+        // border: 1px solid pink;
+    }
+    .testContainOne div{
+        border-right: 1px solid whitesmoke;
+        width: 80%;
+        padding: 20px;
+
+    }
+    .testContainOne p{
+        line-height: .2em;
+    }
+    .testTwoHead{
+        border-bottom: 1px solid whitesmoke;
+    }
+    .testContainTwo{
+        flex: 40%;
+        border: 1px solid whitesmoke;
+        padding: 20px;
+    }
+    .testContainTwo p{
+        width: 65%;
+    }
+}
