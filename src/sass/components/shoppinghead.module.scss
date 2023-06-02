@@ -1,0 +1,43 @@
+.shoppingHead{
+    background: #f5f5f5;
+    .shoph1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .shopCartHead, .shopCartHead2, .shopCartDetails{
+        justify-content: space-between;
+    }
+    .shopCartHead, .shopCartDetails{
+        border-bottom: 1px solid $accent;
+    }
+    .shopCartHead2, .shopDetails2, .shopImgDiv{
+        gap: 4rem;
+    }
+    .shopCartImg{
+        width: 100px;
+    }
+    .shopImgDiv, .shopCartDetails, .shopDetails2, .shopCartHead, .shopCartHead2, .shopCartCheckout{
+        display: flex;
+    }
+    .shopDetails2{
+        margin-right: 15rem;
+    }
+    .shopCartCheckout{
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .shopCartCheckp1{
+        font-size: 12px;
+    }
+    .shopCartCheckp2{
+        font-size: 9px;
+    }
+    .shopCartCheckButton{
+        background: $accent;
+        font-family: $fontPara;
+        border: 1px solid $accent;
+        padding: 10px 50px;
+    }
+}
