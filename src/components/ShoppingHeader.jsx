@@ -26,7 +26,11 @@ function ShoppingHeader() {
                 </div>
                 <div className={styles2.shopDetails2}>
                     <p>$14.50</p>
-                    <p>- 1 +</p>
+                    <div className={styles2.shoppedItemNumber}>
+                        <p>-</p>
+                        <p>1</p>
+                        <p>+</p>
+                    </div>
                 </div>
                 <p>$14.50</p>
             </section>
