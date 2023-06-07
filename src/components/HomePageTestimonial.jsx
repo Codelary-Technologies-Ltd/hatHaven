@@ -15,9 +15,8 @@ function HomePageTestimonial() {
                         </div>
                     </section>
                     <section className={styles1.testContainTwo}>
-                        <div className={styles1.testTwoHead}>
-                            <h2>Sarah Johnson</h2>
-                        </div>
+                            <p className={styles1.testTwoHead}>Sarah Johnson</p>
+                            <hr className={styles1.testTwoHeadhr}/>
                         <p>I recently bought a beanie from Hat Haven and it's been my go-to accessory ever since. The quality is top-notch and it keeps me warm even on the coldest days.Thanks, Hat Haven!</p>
                     </section>
                 </div>

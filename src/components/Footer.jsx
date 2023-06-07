@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from '../sass/components/footer.module.scss'
+import twitterIcon from '../assets/png/twitter.png'
+import instaIcon from '../assets/png/insta.png'
 function Footer() {
   return (
     <div className={styles.footer}>
@@ -26,7 +28,11 @@ function Footer() {
                 </div>
                 <div>
                     <p>hathaven@gmail.com</p>
-                    <p>+234 8092860362</p>
+                    <div className={styles.footericons}>
+                        <p>+234 8092860362</p>
+                        <img src={twitterIcon}/>
+                        <img src={instaIcon}/>
+                    </div>
                 </div>
             </div>
         </div>

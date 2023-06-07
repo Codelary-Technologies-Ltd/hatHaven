@@ -14,10 +14,11 @@
     }
     .testContainOne{
         flex: 30%;
+        background-image: url(assets\png\quotes.png);
         // border: 1px solid pink;
     }
     .testContainOne div{
-        border-right: 1px solid whitesmoke;
+        border-right: 1px solid $accent;
         width: 80%;
         padding: 20px;
 
@@ -26,14 +27,18 @@
         line-height: .2em;
     }
     .testTwoHead{
-        border-bottom: 1px solid whitesmoke;
+        font-weight: 300;
+    }
+    .testTwoHeadhr{
+        width: 100%;
+        border: .5px solid $accent;
     }
     .testContainTwo{
         flex: 40%;
-        border: 1px solid whitesmoke;
+        border: 1px solid $accent;
         padding: 20px;
     }
     .testContainTwo p{
-        width: 65%;
+        width: 90%;
     }
 }

@@ -19,6 +19,9 @@
         border-right: 1px solid grey;
         padding-right: 5em;
     }
+    .footHeader h1{
+        font-weight: lighter;
+    }
     .footHead{
         color: $secondary;
         margin: 0;
@@ -33,5 +36,20 @@
     .footList li{
         list-style-type: none;
         font-family: $fontPara;
+        padding-bottom: 4px;
+    }
+    .footList li:hover{
+        cursor: pointer;
+        color: $accent;
+    }
+    .footericons{
+        display: flex;
+        // border: 1px solid red;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .footericons img {
+        width: 15px;
     }
 }
