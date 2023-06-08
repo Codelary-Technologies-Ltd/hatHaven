@@ -3,9 +3,11 @@
     background: grey;
     color: $secondary;
     padding: 3em 0px;
-    .hometestContain{
-        width: 90%;
-    }
+
+    // .hometestContain{
+    //     width: 90%;
+    //     border: 1px solid black;
+    // }
     .testContain{
         display: flex;
         justify-content: space-between;
@@ -44,7 +46,7 @@
         border: .5px solid $accent;
     }
     .testContainTwo{
-        flex: 40%;
+        flex: 70%;
         border: 1px solid $accent;
         padding: 20px;
     }
