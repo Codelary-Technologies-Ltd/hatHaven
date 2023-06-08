@@ -26,6 +26,10 @@
     .navIcons img{
         width: 18px;
     }
+    .navIcons img:hover{
+        color: $accent;
+        cursor: pointer;
+    }
     .navIcon p{
         color: $accent;
     }
