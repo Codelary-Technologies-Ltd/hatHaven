@@ -14,14 +14,24 @@
     }
     .testContainOne{
         flex: 30%;
-        background-image: url(assets\png\quotes.png);
+        position: relative;
         // border: 1px solid pink;
     }
-    .testContainOne div{
+    .testContainOnebg{
+        opacity: 0.2;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 100px;
+        height: 80px;
+    }
+    .testContainOneDiv{
         border-right: 1px solid $accent;
         width: 80%;
-        padding: 20px;
-
+        padding: 20px 20px 20px 0px;
+    }
+    .testContainOneDiv h2{
+        font-size: xx-large;
+        font-weight: 300;
     }
     .testContainOne p{
         line-height: .2em;

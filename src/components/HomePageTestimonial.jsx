@@ -1,6 +1,6 @@
 import React from 'react'
 import styles1 from '../sass/components/hometestimony.module.scss'
-
+import Testbg from '../assets/png/quotes.png'
 function HomePageTestimonial() {
   return (
     <div className={styles1.hometestContainer}>
@@ -9,6 +9,9 @@ function HomePageTestimonial() {
                 <div className={styles1.testContain}>
                     <section className={styles1.testContainOne}>
                         <div>
+                            <img src={Testbg} alt='bg' className={styles1.testContainOnebg}/>
+                        </div>
+                        <div className={styles1.testContainOneDiv}>
                             <h2>Testimonials</h2>
                             <p>See what our customers</p>
                             <p>are saying</p>
