@@ -26,12 +26,14 @@ function Footer() {
                         <li>Delivery & Returns</li>
                     </ul>
                 </div>
-                <div>
-                    <p>hathaven@gmail.com</p>
-                    <div className={styles.footericons}>
-                        <p>+234 8092860362</p>
-                        <img src={twitterIcon}/>
-                        <img src={instaIcon}/>
+                <div className={styles.footersocials}>
+                    <div>
+                        <p>hathaven@gmail.com</p>
+                        <div className={styles.footericons}>
+                            <p>+234 8092860362</p>
+                            <img src={twitterIcon}/>
+                            <img src={instaIcon}/>
+                        </div>
                     </div>
                 </div>
             </div>
