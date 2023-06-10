@@ -20,6 +20,7 @@
         padding-right: 5em;
     }
     .footHeader h1{
+        cursor: pointer;
         font-weight: lighter;
     }
     .footHead{
@@ -54,10 +55,16 @@
     }
     .footersocials{
         // border: 1px solid white;
-        line-height: 2px;
+        // line-height: 2px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-left: 20px;
+    }
+    .footersocials a{
+        cursor: pointer;
+        color: $secondary;
+        text-decoration: none;
     }
 }

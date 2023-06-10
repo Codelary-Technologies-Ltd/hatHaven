@@ -13,7 +13,7 @@ function HomePageNews() {
                             <h3>The Hat Insider:</h3>
                             <p>Be the First to Know About Our New Arrivals</p>
                             <div className={styles.homeinputContainer}>
-                            <input placeholder='Email' className={styles.homenewsInput}/>
+                            <input placeholder='Email' className={styles.homenewsInput} type='email'/>
                             <button className={styles.homenewsButton}>Sign Up</button>
                             </div>
                         </div>

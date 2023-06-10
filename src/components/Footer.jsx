@@ -28,11 +28,19 @@ function Footer() {
                 </div>
                 <div className={styles.footersocials}>
                     <div>
-                        <p>hathaven@gmail.com</p>
+                        <a href='mailto:hathaven@gmail.com'>
+                            <p>hathaven@gmail.com</p>
+                        </a>
                         <div className={styles.footericons}>
-                            <p>+234 8092860362</p>
-                            <img src={twitterIcon}/>
-                            <img src={instaIcon}/>
+                            <a href='https://wa.me/08092860362'>
+                                <span>+234 8092860362</span>
+                            </a>
+                            <a href='https://www.twitter.com'>
+                                <img src={twitterIcon}/>
+                            </a>
+                            <a href="https://www.instagram.com">
+                                <img src={instaIcon}/>
+                            </a>
                         </div>
                     </div>
                 </div>
