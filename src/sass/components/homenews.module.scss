@@ -1,0 +1,56 @@
+.homeContainer{
+    width: 100%;
+    background-color: whitesmoke;
+    font-family: $fontPara;
+    .homenewsContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3em 0;
+
+    }
+    .newsContainer{
+        display: flex;
+        border: 2px solid $accent;
+        padding: 10px;
+        justify-content: space-around;
+        width: 80%;
+    }
+    .newsContainer img{
+        width: 300px;
+    }
+    .homeText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid black;
+        flex: 60%;
+    }
+    .homeText h3{
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .homenewsInput{
+        border: 1px solid $secondary;
+        padding: 10.2px 10px;
+        width: 70%;
+        font-family: $fontPara;
+    }
+    .homenewsInput:focus{
+        outline: none;
+    }
+    .homenewsButton{
+        padding: 10px 22px;
+        border: 1px solid $accent;
+        background: $accent; 
+        font-family: $fontPara;
+    }
+    .homenewsButton:hover{
+        cursor: pointer;
+        color: white;
+    }
+    .homeinputContainer{
+        margin: 4rem 0 0;
+    }
+}
