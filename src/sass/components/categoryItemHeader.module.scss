@@ -1,0 +1,74 @@
+.categoryItemHeader{
+    font-family: 'Exo 2', sans-serif;
+
+    &TopNav{
+        padding: 20px 0;
+        p{
+            margin: 0;
+        }
+    }
+
+    &Page{
+        display: flex;
+        justify-content: space-between;
+        gap: 5%;
+
+    }
+
+    &Image img{
+        max-width: 100%;
+        width: 850px;
+    }
+
+    &Content{
+        width: 90%;
+        margin: 0 auto;
+
+        h1{
+            letter-spacing: 0.04em;
+            font-weight: 900;
+        }
+
+        &Price{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &Para{
+            opacity: 0.7;
+            line-height: 25px;
+            font-family: $fontPara;
+        }
+
+        &AmountBox{
+            display: flex;
+            gap: 25px;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px solid $primary;
+            width: 120px;
+            margin-bottom: 10px;
+            padding: 0 3px ;    
+        }
+
+        &ColorImg img{
+            width: 20px;
+            gap: 10px;
+            margin-right: 10px;
+        }
+
+        &ColorImg img:hover{
+            outline: 2px solid $primary;
+            border-radius: 10px;
+        }
+
+        &Button button{
+            padding: 2% 3%;
+            background-color: $accent;
+            width: 100%;
+            border: none;
+
+        }
+    }
+}
