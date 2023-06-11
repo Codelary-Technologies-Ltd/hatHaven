@@ -1,0 +1,56 @@
+.hometestContainer{
+    font-family: $fontPara;
+    background: grey;
+    color: $secondary;
+    padding: 3em 0px;
+
+    // .hometestContain{
+    //     width: 90%;
+    //     border: 1px solid black;
+    // }
+    .testContain{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .testContainOne{
+        flex: 30%;
+        position: relative;
+        // border: 1px solid pink;
+    }
+    .testContainOnebg{
+        opacity: 0.2;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 100px;
+        height: 80px;
+    }
+    .testContainOneDiv{
+        border-right: 1px solid $accent;
+        width: 80%;
+        padding: 20px 20px 20px 0px;
+    }
+    .testContainOneDiv h2{
+        font-size: xx-large;
+        font-weight: 300;
+    }
+    .testContainOne p{
+        line-height: .2em;
+    }
+    .testTwoHead{
+        font-weight: 300;
+    }
+    .testTwoHeadhr{
+        width: 100%;
+        border: .5px solid $accent;
+    }
+    .testContainTwo{
+        flex: 70%;
+        border: 1px solid $accent;
+        padding: 20px;
+    }
+    .testContainTwo p{
+        width: 90%;
+    }
+}
