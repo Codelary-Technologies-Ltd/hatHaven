@@ -1,0 +1,57 @@
+.homeHeaderContainer{
+    background-color: $lightText;
+    font-family: $fontPara;
+    .homeHeadFlexContainer, .homeHeadImgContainer, .homeImgContainer, .homeHeadText{
+        display: flex;
+    }
+    .homeHeadImgContainer{
+        gap: 15px;
+    }
+    .homeHeadFlexContainer{
+        gap: 3em;
+    }
+    
+    .homeImgContainer{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .homeImgContainerImg{
+        width: 200px;
+        height: 250px;
+    }
+    .homeImgContainerImgs, .homeImgContainerImgs2{
+        width: 200px;
+    }
+    .homeImgContainerImgs2{
+        height: 49px;
+    }
+    .homeHeadText{
+        color: $secondary;
+        justify-content: center;
+        align-items: center;
+    }
+    .homeHeadText p{
+        font-size: 30px;
+        font-weight: 400;
+        // position: relative;
+    }
+    .headCircleText{
+        position: relative;
+    }
+    .headCircleText img{
+        position: absolute;
+        margin-left: -65px;
+        width: 70px;
+    }
+    .homeheadButton{
+        padding: 10px 4em;
+        border: 1px solid $accent;
+        background: $accent; 
+        font-family: $fontPara;
+    }
+    
+    .homeheadButton:hover{
+        cursor: pointer;
+        color: white;
+    }
+}
