@@ -3,14 +3,6 @@ import searchicon from '../assets/svg/search.svg'
 import profileicon from '../assets/svg/profile.svg'
 import carticon from '../assets/svg/cart.svg'
 function Navbar() {
-    // const [color, setColor] = useState(false)
-    // const colorChange = ()=>{
-  
-    //   window.scrollY > 520 ? setColor(true) : setColor(false)
-    // }
-  
-  
-    // window.addEventListener('scroll', colorChange)
   
   return (
     <div className={styles.navBar}>
