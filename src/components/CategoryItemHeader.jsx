@@ -1,13 +1,13 @@
 import { useState } from "react";
 import style from "./../sass/components/categoryItemHeader.module.scss";
+import { BiPlus, BiMinus } from 'react-icons/bi';
 import BucketHat from '../assets/png/bucketHat.png'
 import Rectangle1 from '../assets/png/Rectangle1.png'
 import Rectangle2 from '../assets/png/Rectangle2.png'
 import Rectangle3 from '../assets/png/Rectangle3.png'
 import Rectangle4 from '../assets/png/Rectangle4.png'
 import Rectangle5 from '../assets/png/Rectangle5.png'
-import addicon from '../assets/png/add.png'
-import minusicon from '../assets/png/minus.png'
+
 
 function CategoryItemHeader() {
     const [counter, setCounter] =useState (1);
@@ -72,10 +72,10 @@ function CategoryItemHeader() {
                                     Amount:
                                 </p>
 
-                                <div className={style.categoryItemHeaderContentAmountBox}>
-                                    <img src={minusicon} onClick={DecreaseAmount}  style={{width:'10px'}}/>                               
+                                <div className={style.categoryItemHeaderContentAmountBox}>                             
+                                    <BiMinus onClick={DecreaseAmount} />
                                     <p>{counter}</p>
-                                    <img src={addicon}  onClick={IncreaseAmount}  style={{width:'10px'}}/>
+                                    <BiPlus onClick={IncreaseAmount} />
                                 </div>
                             </div>
                             
