@@ -3,6 +3,7 @@ import searchicon from '../assets/svg/search.svg'
 import profileicon from '../assets/svg/profile.svg'
 import carticon from '../assets/svg/cart.svg'
 function Navbar() {
+  
   return (
     <div className={styles.navBar}>
         <nav className='container'>
