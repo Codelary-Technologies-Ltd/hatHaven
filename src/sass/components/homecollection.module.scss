@@ -1,10 +1,20 @@
-.homeCollectHead{
-    text-align: center;
-    .homeCollectHead h1{
-        font-weight: lighter;
+.homeCollect{
+    padding: 30px 0 ;
+    .homeCollectHead{
+        text-align: center;
+        font-family: $fontPara;
+       h1.homeCollectHead {
+            font-weight: normal;
+            margin: 20px 0;
+        }
+    }
+    .collections {
+        & img{
+            width: 100%;
+            height: 300px;
+        }
+        
     }
 }
-.collections img{
-    width: 200px;
-    height: 250px;
-}
+
+
