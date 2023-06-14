@@ -1,0 +1,46 @@
+.categoryHeader{
+    font-family: 'Exo 2', sans-serif;
+
+    &TopNav{
+        padding: 20px 0;
+        p{
+            margin: 0;
+        }
+    }
+
+    &Content{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+
+        h1{
+            letter-spacing: 0.04em;
+            font-weight: 400;
+        }
+
+        &Details{
+            color: $lightText;
+            opacity: 0.7;
+            line-height: 25px;
+        }
+    }
+
+    &BottomNav{
+        border-top: 1px solid $accent;
+        padding: 10px 0;
+        display: flex;
+        justify-content: flex-end;
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            font-size: 1.1rem;
+            padding: 0;
+        }
+        &Filter{
+            border-right: 2px solid $primary;
+            border-left: 2px solid $primary;
+            padding: 0 20px;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+[
+	{
+        "Id": 1,
+		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/buckethat6.jpg"
+		
+	},
+	{
+        "Id": 2,
+		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/buckethat7.jpg"
+		
+	},
+	{
+        "Id": 3,
+		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/bucket4.png"
+		
+	},
+	{
+        "Id": 4,
+		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/buckethat15.png"
+		
+	},
+	{
+        "Id": 5,
+		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/coke-bucket-hat.png"
+		
+	},
+	{
+        "Id": 6,
+		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/buckethat8.jpg"
+		
+	},
+	{
+        "Id": 7,
+		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/buckethat9.jpg"
+		
+	},
+	{
+        "Id": 7,
+		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/fcmb.jpg"
+		
+	},
+    {
+        "Id": 7,
+		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/buckethat10.jpg"
+		
+	}
+]
