@@ -8,12 +8,10 @@ import HomepageNews from "./../components/HomePageNews"
 const Home = () => {
   return (
     <div>
-        <Navbar />
         <HomePageHeader />
         <HomeCollection />
         <HomePageTestimonials />
         <HomepageNews />
-        <Footer />
     </div>
   )
 }
