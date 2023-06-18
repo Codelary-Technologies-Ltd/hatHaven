@@ -1,0 +1,94 @@
+.categoryItemReview{
+
+    &Page{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        width: 100%;
+        padding: 4%;
+        background-color: whitesmoke;
+    }
+
+    &Form{
+        width: 60%;
+        text-align: center;
+        padding: 0 0 3%;
+        line-height: 3.5rem;
+
+        h1{
+            font-size: 1.7rem;;
+            font-weight: 550;
+        }
+
+        h2{
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    }
+
+    &Button button{
+        padding: 5%;
+        background-color: $accent;
+        width: 200px;
+        border: none;
+        cursor: pointer;
+    }
+
+    &Button button:hover{
+        background-color: $accent;
+        color: $secondary;
+    }
+    
+    &BoxContent{
+        width: 90%;
+        margin: 0 auto;
+        background-color: white;
+        padding: 0 2% 2%;
+        border: 1px solid $primary;
+        margin:30px;
+
+        &Header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            h3{
+                display: flex;
+                gap: 10px;
+                font-size: 1.2rem;
+                letter-spacing: 0.04em;
+                font-weight: 550;
+            }
+        }
+        
+        &Para{
+            margin: 0;
+            opacity: 0.7;
+            font-size: 0.9rem;
+            line-height: 17px;
+            margin-bottom: 20px;
+            font-family: $fontPara;
+        }
+    }
+     
+}
+
+
+@media screen and (max-width:900px) {
+    .categoryItemReview{
+        &Page{
+            display: block;
+            width: 100%;
+            padding: 4%;
+        }
+
+        &Form{
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0;
+        }
+
+    }
+    
+}
