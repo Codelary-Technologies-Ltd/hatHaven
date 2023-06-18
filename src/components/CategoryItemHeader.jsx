@@ -1,13 +1,8 @@
 import { useState } from "react";
 import style from "./../sass/components/categoryItemHeader.module.scss";
 import { BiPlus, BiMinus } from 'react-icons/bi';
-import BucketHat from '../assets/png/bucketHat.png'
-import Rectangle1 from '../assets/png/Rectangle1.png'
-import Rectangle2 from '../assets/png/Rectangle2.png'
-import Rectangle3 from '../assets/png/Rectangle3.png'
-import Rectangle4 from '../assets/png/Rectangle4.png'
-import Rectangle5 from '../assets/png/Rectangle5.png'
-
+import BucketHat from '../assets/png/bucketHat.png';
+import Rectangle2 from '../assets/png/Rectangle2.png';
 
 function CategoryItemHeader() {
     const [counter, setCounter] =useState (1);
@@ -28,7 +23,11 @@ function CategoryItemHeader() {
         <div className='container' >
             <div className={style.categoryItemHeader}>
                 <nav className={style.categoryItemHeaderTopNav}>
-                    <p>Home / BucketHat / Warning Bucket Hat</p>
+                    <ul>
+                        <li>Home  </li> /
+                        <li>BucketHat </li> / 
+                        <li>Warning Bucket Hat</li>
+                    </ul>
                 </nav>
 
                 <div className={style.categoryItemHeaderPage}>
@@ -59,11 +58,7 @@ function CategoryItemHeader() {
                                 </p>
 
                                 <div className={style.categoryItemHeaderContentColorImg}>
-                                    <img src={Rectangle1} alt="" />
                                     <img src={Rectangle2} alt="" />
-                                    <img src={Rectangle3} alt="" />
-                                    <img src={Rectangle4} alt="" />
-                                    <img src={Rectangle5} alt="" />
                                 </div>
                             </div>
 
