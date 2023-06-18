@@ -68,15 +68,17 @@
             
         }
         
-        &ColorImg img{
-            width: 20px;
+        &ColorImg {
+            width: 30px;
+            height: 30px;
+            margin: 0;
+            background-color: yellow;
             gap: 10px;
             margin-right: 10px;
         }
 
-        &ColorImg img:hover{
-            outline: 2px solid $primary;
-            border-radius: 10px;
+        &ColorImg:hover{
+            outline: 1px solid $primary;
         }
 
         &Button button{
@@ -85,6 +87,11 @@
             width: 100%;
             border: none;
             cursor: pointer;
+        }
+
+        &Button button:hover{
+            background-color: $accent;
+            color: $secondary;
         }
     }
 }

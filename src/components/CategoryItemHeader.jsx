@@ -2,7 +2,8 @@ import { useState } from "react";
 import style from "./../sass/components/categoryItemHeader.module.scss";
 import { BiPlus, BiMinus } from 'react-icons/bi';
 import BucketHat from '../assets/png/bucketHat.png';
-import Rectangle2 from '../assets/png/Rectangle2.png';
+
+
 
 function CategoryItemHeader() {
     const [counter, setCounter] =useState (1);
@@ -58,7 +59,7 @@ function CategoryItemHeader() {
                                 </p>
 
                                 <div className={style.categoryItemHeaderContentColorImg}>
-                                    <img src={Rectangle2} alt="" />
+                                    <div></div>
                                 </div>
                             </div>
 
