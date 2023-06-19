@@ -14,25 +14,6 @@ body,html{
   margin: 0 auto;
   max-width: 1440px;
 }
-.swiper-button-next, .swiper-button-prev {
-  background-image: url(../src/assets/png/best-sellers/right\ arrow.png);
-  position: absolute;
-  margin-top: -5em;
-  background-size: 100% auto;
-  // background-position: center;
-}
-.swiper-button-prev{
-  margin-left: 6.5em;
-}
-.swiper-button-next{
-  margin-right: 6.5em;
-}
-.swiper-button-next::after {
-  display: none;
-}
-.swiper-button-prev::after {
-  display: none;
-}
 
 // font-family: 'IM Fell Double Pica SC', serif;
 // font-family: 'Exo 2', sans-serif;
