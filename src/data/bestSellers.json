@@ -1,0 +1,42 @@
+[
+    {
+        "Id": 1,
+		"sellerImage": "./../src/assets/png/best-sellers/best-seller1.png"
+		
+	},
+	{
+        "Id": 2,
+		"sellerImage": "./../src/assets/png/best-sellers/best-seller2.png"
+		
+	},
+	{
+        "Id": 3,
+		"sellerImage": "./../src/assets/png/best-sellers/best-seller3.png"
+		
+	},
+	{
+        "Id": 4,
+		"sellerImage": "./../src/assets/png/best-sellers/best-seller4.png"
+		
+	},
+	{
+        "Id": 5,
+		"sellerImage": "./../src/assets/png/best-sellers/best-seller1.png"
+		
+	},
+	{
+        "Id": 6,
+		"sellerImage": "./../src/assets/png/best-sellers/best-seller3.png"
+		
+	},
+	{
+        "Id": 7,
+		"sellerImage": "./../src/assets/png/best-sellers/best-seller4.png"
+		
+	},
+	{
+        "Id": 8,
+		"sellerImage": "./../src/assets/png/best-sellers/best-seller2.png"
+		
+	}
+]

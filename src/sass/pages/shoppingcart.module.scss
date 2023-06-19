@@ -5,7 +5,8 @@
         align-items: center;
     }
     .shoph1 h1{
-        font-weight: 400;
+        font-weight: bold;
+        font-family: $fontPara;
     }
     .shopCartHead, .shopCartHead2{
         justify-content: space-between;
@@ -15,6 +16,9 @@
     }
     .shopCartHead2{
         gap: 4rem;
+    }
+    .shopCartHead p{
+        font-weight: 600;
     }
     
     .shoph1, .shopCartHead, .shopCartHead2, .shopCartCheckout{
