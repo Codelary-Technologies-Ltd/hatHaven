@@ -1,0 +1,48 @@
+.shoppingHead{
+    padding: 1em 0px 5em 0px;
+    .shoph1{
+        justify-content: center;
+        align-items: center;
+    }
+    .shoph1 h1{
+        font-weight: 400;
+    }
+    .shopCartHead, .shopCartHead2{
+        justify-content: space-between;
+    }
+    .shopCartHead, .shopCartBorder{
+        border-bottom: 1px solid $accent;
+    }
+    .shopCartHead2{
+        gap: 4rem;
+    }
+    
+    .shoph1, .shopCartHead, .shopCartHead2, .shopCartCheckout{
+        display: flex;
+    }
+    // .shopCartDetails{
+    //     border: 2px solid green;
+    //     flex-direction: row;
+    // }
+    .shopCartCheckout{
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .shopCartCheckp1{
+        font-size: 12px;
+    }
+    .shopCartCheckp2{
+        font-size: 9px;
+    }
+    .shopCartCheckButton{
+        background: $accent;
+        font-family: $fontPara;
+        border: 1px solid $accent;
+        padding: 10px 50px;
+    }
+    .shopCartCheckButton:hover{
+        color: $secondary;
+        cursor: pointer;
+    }
+}

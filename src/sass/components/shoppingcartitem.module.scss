@@ -1,0 +1,33 @@
+.shopCartDetails{
+    justify-content: space-between;
+    align-items: center;
+}
+.shopDetails2{
+    justify-content: center;
+    align-items: center;
+    margin-right: 14rem;
+}
+.shopDetails2, .shopImgDiv{
+    gap: 4rem;
+}
+.shopCartImg{
+    width: 100px;
+}
+.shopImgDiv, .shopDetails2, .shoppedItemNumber, .shopCartDetails{
+    display: flex;
+}
+
+.shoppedItemNumber{
+    border: 1px solid black;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: max-content;
+    padding: 0 5px;
+}
+.shoppedItemNumber button{
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
