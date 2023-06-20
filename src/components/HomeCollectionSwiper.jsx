@@ -29,7 +29,6 @@ function HomeCollectionSwiper() {
               delay: 2500,
               disableOnInteraction: false,
             }}
-            // pagination={{ clickable: true }}
             className="mySwiper"
           >
             {pictures.map((slide, index) => (
