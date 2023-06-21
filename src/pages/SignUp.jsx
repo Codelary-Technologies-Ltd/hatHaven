@@ -1,18 +1,18 @@
 import React from 'react'
 import catStyle from "../sass/components/categoryHeader.module.scss";
-import style from "../sass/pages/signup.module.scss";
+import style from "../sass/pages/auth.module.scss";
 const SignUp = () => {
   return (
     <div className='container'>
-        <div className={style.signUp}>
+        <div className={style.auth}>
             <header className={catStyle.categoryHeaderContent}>
                 <h1>CREATE AN ACCOUNT</h1>
                 <p>
                     Create an account for easy access to all your orders!
                 </p>
             </header>
-            <section className={style.signUpDetails}>
-                <form className={style.signUpDetailsForm}>
+            <section className={style.authDetails}>
+                <form className={style.authDetailsForm}>
                     <label htmlFor="name">First Name</label>
                     <input type="text" name="firstName" id= "firstName" placeholder="James" />
                     <label htmlFor="name">Last Name</label>
@@ -21,7 +21,7 @@ const SignUp = () => {
                     <input type="email" name="email" id= "email" placeholder="bill.sanders@example.com" />
                     <label htmlFor="password">Your password</label>
                     <input type="password" name="password" id= "password" placeholder="ZB0mLzLH7CU" />
-                    <span className={style.signUpDetailsFormCheck} >
+                    <span className={style.authDetailsFormCheck} >
                         <input type="checkbox" name="subscribe" id="subscribe" />
                         <label htmlFor="subscribe">Subscribe to our newsletter</label>
                     </span>
