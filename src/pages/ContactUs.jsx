@@ -39,7 +39,7 @@ const ContactUs = () => {
                             <Location />
                             <h1>Location</h1>
                     </aside>
-                    <p>Number 10 ijaoye street jibowu, Lagos State</p>
+                    <p>Number 10 ijaoye street jibowu, Lagos State.</p>
                 </div>
             </section>
             <section className={style.contactUsFillDetails}>
