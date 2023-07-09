@@ -2,6 +2,7 @@
     background-color: #6666663b ;
     width: 50%;
     min-height: 80vh;
+    padding-right: 50px;
 }
 .itemCheckout{
     width: 90%;
@@ -76,7 +77,8 @@
     &Coupon{
         display: flex;
         align-items: center;
-        gap: 10px;
+        justify-content: space-between;
+        // gap: 10px;
         border-top: 1px solid $secLightText;
         border-bottom: 1px solid $secLightText;
         padding: 20px 0;
