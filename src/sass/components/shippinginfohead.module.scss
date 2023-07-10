@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin: 30px 0;
 }
 .infoHeader h1{
     font-weight: lighter;
@@ -16,28 +17,34 @@
     margin: 0;
     font-family: $fontHeading ;
 }
+.infop p{
+    font-size: 12px;
+}
 .infospan{
     color: $accent;
     font-family: $fontPara;
 }
-.infohrdiv{
-    width: 30%;
+.infohrdiv, .infohrdiv2{
+    width: 100%;
+}
+.infohrdiv hr{
+    width: 38%;
+    height: 0;
+}
+.infohrdiv, .infohrdiv2 p{
+    font-size: 13px;
+}
+.infohrdiv2 hr{
+    width: 45%;
+}
+.infopaypal{
+    margin: 10px auto;
+}
+.infopaypal, .infohrdiv, .infohrdiv2{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.infohrdiv hr{
-    width: 20%;
-    height: 0;
-}
-.infohrdiv p{
-    font-size: 10px;
-}
-// .infopaypal{
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
 .infopaypal img{
     width: 200px;
 }
