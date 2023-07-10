@@ -1,0 +1,42 @@
+.infoform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.infocheckbox{
+    display: flex;
+    gap: 5px;
+}
+.infocheckbox input{
+    width: 1rem;
+}
+.infodivborder{
+    border: 1px solid black;
+}
+.infoinputflex{
+    display: flex;
+    flex-direction: column;
+}
+
+.shipInfoButton{
+    background: $accent;
+    font-family: $fontPara;
+    border: 1px solid $accent;
+    padding: 10px 50px;
+}
+.shipInfoButton:hover{
+    color: $secondary;
+    cursor: pointer;
+}
+.infobottomborder{
+    margin-top: 2rem;
+    border-top: 1px solid black;
+}
+.infofooter{
+    display:flex;
+    gap: 10px;
+}
+.infofooter p{
+    font-size: 8px;
+    font-weight: lighter;
+}

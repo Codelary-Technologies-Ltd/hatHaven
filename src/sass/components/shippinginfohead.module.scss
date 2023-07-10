@@ -1,0 +1,43 @@
+
+.infoHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.infoHeader h1{
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+   
+.infoHead{
+    color: $primary;
+    margin: 0;
+    font-family: $fontHeading ;
+}
+.infospan{
+    color: $accent;
+    font-family: $fontPara;
+}
+.infohrdiv{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infohrdiv hr{
+    width: 20%;
+    height: 0;
+}
+.infohrdiv p{
+    font-size: 10px;
+}
+// .infopaypal{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+.infopaypal img{
+    width: 200px;
+}
