@@ -1,12 +1,13 @@
 import { useState } from "react";
 import style from "./../sass/pages/CategoryItem.module.scss"
-import { BiPlus, BiMinus } from 'react-icons/bi';
+import CategoryItemReviewBox from "../components/CategoryItemReviewBox";
 import BucketHat from '../assets/png/bucketHat.png';
+import { BiPlus, BiMinus } from 'react-icons/bi';
 
 
 
 function CategoryItem() {
-    const [counter, setCounter] =useState (1);
+    const [counter, setCounter] = useState (1);
 
     //Increase Amount
     const IncreaseAmount = () =>{
@@ -31,15 +32,16 @@ function CategoryItem() {
                     </ul>
                 </nav>
 
-                <div className={style.categoryItemPageContainer}>
                 
+                <div className={style.categoryItemPageContainer}>
                     <div className={style.categoryItemPageImage}>
                         <img src={BucketHat} alt="" />
                     </div>
 
-                    <form action="">
 
-                        <div className={style.categoryItemPageContent}>
+                    <div className={style.categoryItemPageContent}>
+                        
+                        <form action="">
                             <div className={style.categoryItemPageContentInfo}>
                                 <h1 className={style.categoryItemPageContentHeader}>Warning Bucket Hat</h1>
                                 <p className={style.categoryItemPageContentPara}> A bucket hat that features a striking and bold warning design on its body. This unique bucket hat is perfect for those who want to stand out from the crouwd and make a statement.   The warning design adds an edgy and eye catching element to the hat, making it a great accessory for any casual outfit. Made with high quality materials, this bucket hat is both comfortable and durable, making it a great addition to any hat collection.
@@ -78,14 +80,46 @@ function CategoryItem() {
                             <div className={style.categoryItemPageContentButton}>                   
                                 <button>Add to Cart</button>
                             </div>
-
-                        </div>
-
-                    </form>
-
+                        </form>
+                    </div>         
                 </div>
 
+
+                <div className={style.categoryItemPageReview}>
+                    <div className={style.categoryItemPageReviewForm}>
+
+                        <form action="">
+                            <h1> REVIEWS</h1>
+
+                            <h1>4.7</h1>
+
+                            <div>
+                                star  star star
+                            </div>
+
+                            <h2>BASED ON 6 REVIEWS</h2>
+
+                            <div className={style.categoryItemPageReviewButton}>                   
+                                <button>WRITE A REVIEW</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+            
+                    <div className={style.categoryItemPageReviewBox}>
+                        <CategoryItemReviewBox/>
+                    </div>
                 
+                </div>
+
+                <div >
+                    <section className={style.categoryItemPageSwiper}>
+                        {/* <CategoryItemSlider /> */}
+                    </section>
+                </div>
+
             </div>
 
         </div>
