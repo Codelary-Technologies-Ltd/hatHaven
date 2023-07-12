@@ -17,6 +17,19 @@
     margin: 0;
     font-family: $fontHeading ;
 }
+.infopcont{
+    display: flex;
+    justify-content: flex-start;
+}
+.infop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.infop img{
+    width: 10px;
+}
 .infop p{
     font-size: 12px;
 }

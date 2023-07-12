@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react'
 import Select, { components}  from 'react-select'
 import countryList from 'react-select-country-list'
 import styles2 from '../sass/components/shippinginfoform.module.scss'
-import backToCart from '../assets/png/arrow-left.png'
+import backToCart from '../assets/svg/arrow-left.svg'
 import states from "../data/states.json";
 
 
