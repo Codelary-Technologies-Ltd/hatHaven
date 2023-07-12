@@ -1,4 +1,4 @@
-.infoform, .infocheckbox, .infoinputflex, .infoinputflex2, .infoinputflex3, .infostateselect, .infobackarrow, .infofooter{
+.infoform, .infocheckbox, .infoinputflex, .infoinputflex2, .infoinputflex3, .infobackarrow, .infofooter{
     display: flex;
 }
 .infoform{
@@ -33,7 +33,6 @@
 .infoinputflex3{
     width: 100%;
     justify-content: space-between;
-
 }
 .infoinputflex3 input{
     width: 30%;
@@ -43,8 +42,6 @@
 }
 .infostateselect{
     border: 1px solid black;
-    justify-content: center;
-    align-items: center;
     width: 30%;
 }
 .infostateselect select{
@@ -53,6 +50,7 @@
     outline: none;
     font-weight: lighter;
     color: $secLightText;
+    margin-top: 10px;
 }
 .shipInfoButton{
     background: $accent;
