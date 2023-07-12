@@ -1,11 +1,9 @@
-// import style from './App.module.scss'
-import CategoryItem from './pages/CategoryItem.jsx'
+import style from './App.module.scss'
 function App() {
 
   return (
     <>
       <div>
-        <CategoryItem/>
       </div>
     </>
   )
