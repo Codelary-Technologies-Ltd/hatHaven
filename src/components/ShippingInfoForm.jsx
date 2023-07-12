@@ -3,6 +3,8 @@ import Select, { components}  from 'react-select'
 import countryList from 'react-select-country-list'
 import styles2 from '../sass/components/shippinginfoform.module.scss'
 import backToCart from '../assets/png/arrow-left.png'
+import states from "../data/states.json";
+
 
 function ShippingInfoForm() {
     const [value, setValue] = useState('')
@@ -64,17 +66,28 @@ function ShippingInfoForm() {
                     </div>
                     <div className={styles2.infoinputflex3}>
                         <input placeholder='City' type='text'/>
-                        <input placeholder='State' type='text'/>
+                        <div className={styles2.infostateselect}>
+                          <div>
+                            <select>
+                              <option value='' selected>State</option>
+                              {states.map((state)=>{
+                                return(
+                                  <option value={state.code}>{state.name}</option>
+                                )
+                              })}
+                            </select>
+                          </div>
+                        </div>
                         <input placeholder='Postal code' type='number'/>
                     </div>
                     <div className={styles2.infoinputflex4}>
                         <input placeholder='Phone' type='number'/>
                     </div>
                 </section>
-                <div className={styles2.infobackarrow}>
+                <a href='back' className={styles2.infobackarrow}>
                     <img src={backToCart} alt='back'/>
                     <p className={styles2.infobackbutton}>Return to cart</p>
-                </div>
+                </a>
                 <div>
                     <button className={styles2.shipInfoButton}>Continue to Shipping</button>
                 </div>
