@@ -47,7 +47,7 @@ function CategoryItem() {
                             </div>
                             
                             <div className={style.categoryItemPageContentPrice}>
-                                <h1 className={style.categoryItemPageContentHeader}>$14.90</h1>
+                                <h1 className={style.categoryItemPageContentHeader}>$14.80</h1>
                                 <p className={style.categoryItemPageContentPara}>
                                     (10) Rating
                                 </p>
