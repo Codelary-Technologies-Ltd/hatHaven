@@ -44,14 +44,14 @@
         padding: 0 3%;
 
         &Header{
-            font-size: 1.6rem;
+            font-size: 1.7rem;
             letter-spacing: 0.04em;
             font-weight: 550;
         }
         
         &Para{
             opacity: 0.7;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             line-height: 20px;
             font-family: $fontPara;
         }
@@ -105,8 +105,6 @@
     .categoryItemPage{
         &Container{
             display: block;
-            width: 100%;
-            padding: 4%;
         }
 
         &Image{
@@ -118,15 +116,9 @@
             height: 100%;
         }
 
-        &Content{
-            width: 100%;
-            padding: 0;
-            margin: 0;
-        }
     }
     
 }
-
 
 .categoryItemPageReview{
     display: flex;
@@ -165,28 +157,17 @@
     &Button button:hover{
         background-color: $accent;
         color: $secondary;
-    }
-    
-    
+    }  
      
 }
 
-
 @media screen and (max-width:900px) {
-    .categoryItemReview{
-        &Page{
-            display: block;
-            width: 100%;
-            padding: 4%;
-        }
+    .categoryItemPageReview{
+        display: block;
 
         &Form{
             width: 80%;
             margin: 0 auto;
-            text-align: center;
-            padding: 0;
         }
-
     }
-    
 }
