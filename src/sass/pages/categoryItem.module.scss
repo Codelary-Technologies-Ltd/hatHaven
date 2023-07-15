@@ -35,7 +35,9 @@
     }
     
     &Image img{
-        max-width: 30vw;
+        width: 50vw;
+        object-fit: fill;
+        max-width: 370px;
         height: 80%;
     }
 
@@ -147,9 +149,9 @@
     }
 
     &Button button{
-        padding: 5%;
+        padding: 15px;
         background-color: $accent;
-        width: 200px;
+        width: 170px;
         border: none;
         cursor: pointer;
     }
