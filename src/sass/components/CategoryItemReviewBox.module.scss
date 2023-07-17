@@ -1,0 +1,28 @@
+.categoryItemPageReviewBoxContent{
+    background-color: white;
+    padding: 0 2% 1%;
+    border: 1px solid $primary;
+    margin:20px;
+        
+    &Header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        h3{
+            display: flex;
+            gap: 10px;
+            font-size: 1rem;
+            letter-spacing: 0.04em;
+            font-weight: bold;
+        }
+    }
+    
+    p{
+        margin: 0;
+        opacity: 0.7;
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+        font-family: $fontPara;
+    }
+}
