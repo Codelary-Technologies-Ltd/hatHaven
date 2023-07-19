@@ -52,6 +52,10 @@
     color: $secLightText;
     margin-top: 10px;
 }
+.infostateselect option{
+    color: #28bc9c;
+    background-color: white;
+}
 .shipInfoButton{
     background: $accent;
     font-family: $fontPara;
