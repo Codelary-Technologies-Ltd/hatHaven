@@ -1,5 +1,5 @@
 import styles2 from '../sass/components/shippinginfohead.module.scss'
-import paypal from '../assets/png/paypal-logo.png'
+
 import backArrow from '../assets/svg/arrow-left.svg'
 import arrowRight from '../assets/svg/arrow-right.svg'
 function ShippingInfoHead() {
@@ -20,19 +20,6 @@ function ShippingInfoHead() {
                 Payment
             </div>
         </section>
-        <div className={styles2.infohrdiv}>
-            <hr/>
-            <p>Express Checkout</p>
-            <hr/>
-        </div>
-        <div className={styles2.infopaypal}>
-            <img src={paypal} alt='paypal-logo'/>
-        </div>
-        <div className={styles2.infohrdiv2}>
-            <hr/>
-            <p>Or</p>
-            <hr/>
-        </div>
     </div>
   )
 }

@@ -37,27 +37,3 @@
     color: $accent;
     font-family: $fontPara;
 }
-.infohrdiv, .infohrdiv2{
-    width: 100%;
-}
-.infohrdiv hr{
-    width: 33%;
-    height: 0;
-}
-.infohrdiv, .infohrdiv2 p{
-    font-size: 13px;
-}
-.infohrdiv2 hr{
-    width: 45%;
-}
-.infopaypal{
-    margin: 10px auto;
-}
-.infopaypal, .infohrdiv, .infohrdiv2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.infopaypal img{
-    width: 200px;
-}

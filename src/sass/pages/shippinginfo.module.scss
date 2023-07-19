@@ -8,3 +8,123 @@
     padding:0 40px 0 100px;
     // border: 2px solid blue;
 }
+.infohrdiv, .infohrdiv2{
+    width: 100%;
+}
+.infohrdiv hr{
+    width: 33%;
+    height: 0;
+}
+.infohrdiv, .infohrdiv2 p{
+    font-size: 13px;
+}
+.infohrdiv2 hr{
+    width: 45%;
+}
+.infopaypal{
+    margin: 10px auto;
+}
+.infopaypal, .infohrdiv, .infohrdiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infopaypal img{
+    width: 200px;
+}
+.infoform, .infocheckbox, .infoinputflex, .infoinputflex2, .infoinputflex3, .infobackarrow, .infofooter{
+    display: flex;
+}
+.infoform{
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5px;
+}
+.infoform p{
+    margin: 0;
+    font-size: 14px;
+}
+.infoform input{
+    padding: 10px;
+}
+.infocheckbox{
+    gap: 5px;
+}
+.infocheckbox input{
+    width: 1rem;
+}
+
+.infoinputflex{
+    justify-content: space-between;
+}
+.infoinputflex input{
+    width: 48%;
+}
+.infoinputflex2{
+    flex-direction: column;
+    gap: 20px;
+}
+.infoinputflex3{
+    width: 100%;
+    justify-content: space-between;
+}
+.infoinputflex3 input{
+    width: 30%;
+}
+.infoinputflex4 input{
+    width: 100%
+}
+.infostateselect{
+    border: 1px solid black;
+    width: 30%;
+}
+.infostateselect select{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: lighter;
+    color: $secLightText;
+    margin-top: 10px;
+}
+.infostateselect option{
+    color: #28bc9c;
+    background-color: white;
+}
+.shipInfoButton{
+    background: $accent;
+    font-family: $fontPara;
+    border: 1px solid $accent;
+    padding: 10px 50px;
+    width: 100%;
+    margin-top: 15px;
+}
+.shipInfoButton:hover{
+    color: $secondary;
+    // background: $primary;
+    // border: 1px solid $primary;
+    cursor: pointer;
+}
+.infobackarrow{
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+    text-decoration: none;
+    color: $primary;
+    cursor: pointer;
+    gap: 5px;
+}
+.infobackarrow img{
+    width: 11px;
+}
+.infofooter{
+    gap: 10px;
+    margin-top: 2rem;
+    border-top: 1px solid black;
+}
+.infobackbutton{
+    font-size: 12px;
+}
+.infofooter p{
+    font-size: 8px;
+    font-weight: lighter;
+}
