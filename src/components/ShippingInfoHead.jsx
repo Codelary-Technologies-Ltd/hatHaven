@@ -1,6 +1,4 @@
 import styles2 from '../sass/components/shippinginfohead.module.scss'
-
-import backArrow from '../assets/svg/arrow-left.svg'
 import arrowRight from '../assets/svg/arrow-right.svg'
 function ShippingInfoHead() {
   return (
