@@ -1,0 +1,148 @@
+[
+      {
+        "code": "AB",
+        "name": "Abia",
+        "capital": "Umuahia"
+      },
+      {
+        "code": "AD",
+        "name": "Adamawa",
+        "capital": "Yola"
+      },
+      {
+        "code": "AK",
+        "name": "Akwa Ibom",
+        "capital": "Uyo"
+      },
+      {
+        "code": "AN",
+        "name": "Anambra",
+        "capital": "Awka"
+      },
+      {
+        "code": "BA",
+        "name": "Bauchi",
+        "capital": "Bauchi"
+      },
+      {
+        "code": "BY",
+        "name": "Bayelsa",
+        "capital": "Yenagoa"
+      },
+      {
+        "code": "BE",
+        "name": "Benue",
+        "capital": "Makurdi"
+      },
+      {
+        "code": "BO",
+        "name": "Borno",
+        "capital": "Maiduguri"
+      },
+      {
+        "code": "CR",
+        "name": "Cross River",
+        "capital": "Calabar"
+      },
+      {
+        "code": "DE",
+        "name": "Delta",
+        "capital": "Asaba"
+      },
+      {
+        "code": "EB",
+        "name": "Ebonyi",
+        "capital": "Abakaliki"
+      },
+      {
+        "code": "ED",
+        "name": "Edo",
+        "capital": "Benin City"
+      },
+      {
+        "code": "EK",
+        "name": "Ekiti",
+        "capital": "Ado Ekiti"
+      },
+      {
+        "code": "EN",
+        "name": "Enugu",
+        "capital": "Enugu"
+      },
+      {
+        "code": "GO",
+        "name": "Gombe",
+        "capital": "Gombe"
+      },
+      {
+        "code": "IM",
+        "name": "Imo",
+        "capital": "Owerri"
+      },
+      {
+        "code": "JI",
+        "name": "Jigawa",
+        "capital": "Dutse"
+      },
+      {
+        "code": "KA",
+        "name": "Kaduna",
+        "capital": "Kaduna"
+      },
+      {
+        "code": "KN",
+        "name": "Kano",
+        "capital": "Kano"
+      },
+      {
+        "code": "KT",
+        "name": "Katsina",
+        "capital": "Katsina"
+      },
+      {
+        "code": "KE",
+        "name": "Kebbi",
+        "capital": "Birnin Kebbi"
+      },
+      {
+        "code": "KO",
+        "name": "Kogi",
+        "capital": "Lokoja"
+      },
+      {
+        "code": "KW",
+        "name": "Kwara",
+        "capital": "Ilorin"
+      },
+      {
+        "code": "LA",
+        "name": "Lagos",
+        "capital": "Ikeja"
+      },
+      {
+        "code": "NA",
+        "name": "Nasarawa",
+        "capital": "Lafia"
+      },
+      {
+        "code": "NE",
+        "name": "Niger",
+        "capital": "Minna"
+      },
+      {
+        "code": "OG",
+        "name": "Ogun",
+        "capital": "Abeokuta"
+      },
+      {
+        "code": "ON",
+        "name": "Ondo",
+        "capital": "Akure"
+      },
+      {
+        "code": "OS",
+        "name": "Osun",
+        "capital":"Oshogbo"
+      }
+]
+        
