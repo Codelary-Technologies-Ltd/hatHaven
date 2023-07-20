@@ -16,6 +16,8 @@
     "react-icons": "^4.9.0",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.11.2",
+    "react-select": "^5.7.3",
+    "react-select-country-list": "^2.2.3",
     "sass": "^1.62.1",
     "swiper": "^9.3.2",
     "vite-plugin-svgr": "^3.2.0"

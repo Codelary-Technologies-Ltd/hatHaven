@@ -1,0 +1,39 @@
+
+.infoHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px 0;
+}
+.infoHeader h1{
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+   
+.infoHead{
+    color: $primary;
+    margin: 0;
+    font-family: $fontHeading ;
+}
+.infopcont{
+    display: flex;
+    justify-content: flex-start;
+}
+.infop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.infop img{
+    width: 10px;
+}
+.infop p{
+    font-size: 12px;
+}
+.infospan{
+    color: $accent;
+    font-family: $fontPara;
+}
