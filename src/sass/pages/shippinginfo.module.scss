@@ -11,10 +11,20 @@
 .infohrdiv, .infohrdiv2{
     width: 100%;
 }
+.infohrdiv p{
+    font-size: 0.9rem;
+}
 .infohrdiv hr{
-    width: 35%;
+    width: 33%;
     height: 0;
 }
+.infohrdiv hr:nth-child(1){
+    margin-left: 0;
+}
+.infohrdiv hr:nth-child(2){
+    margin-right: 0;
+}
+.info
 .infohrdiv, .infohrdiv2 p{
     font-size: 13px;
 }
