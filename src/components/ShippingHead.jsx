@@ -1,4 +1,4 @@
-import styles2 from '../sass/components/shippinginfohead.module.scss'
+import styles2 from '../sass/components/shippinghead.module.scss'
 import arrowRight from '../assets/svg/arrow-right.svg'
 function ShippingInfoHead() {
   return (

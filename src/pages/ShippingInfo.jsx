@@ -3,7 +3,7 @@ import Select, { components}  from 'react-select'
 import countryList from 'react-select-country-list'
 import backToCart from '../assets/svg/arrow-left.svg'
 import states from "../data/states.json";
-import ShippingInfoHead from '../components/ShippingInfoHead'
+import ShippingHead from '../components/ShippingHead'
 import ItemCheckout from '../components/ItemCheckout'
 import paypal from '../assets/png/paypal-logo.png'
 import shippingstyles from '../sass/pages/shippinginfo.module.scss'
@@ -23,7 +23,7 @@ function ShippingInfo() {
         <div className={shippingstyles.infocont}>
           <div>
               <div>
-                <ShippingInfoHead/>
+                <ShippingHead/>
                 <div className={shippingstyles.infohrdiv}>
                   <hr/>
                   <p>Express Checkout</p>
