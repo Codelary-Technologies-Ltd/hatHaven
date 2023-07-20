@@ -17,12 +17,7 @@
 .infohrdiv hr{
     width: 33%;
     height: 0;
-}
-.infohrdiv hr:nth-child(1){
-    margin-left: 0;
-}
-.infohrdiv hr:nth-child(2){
-    margin-right: 0;
+    margin: 0;
 }
 .info
 .infohrdiv, .infohrdiv2 p{
@@ -30,6 +25,7 @@
 }
 .infohrdiv2 hr{
     width: 45%;
+    margin: 0;
 }
 .infopaypal{
     margin: 10px auto;
