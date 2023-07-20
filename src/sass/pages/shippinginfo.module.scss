@@ -24,9 +24,14 @@
 .infopaypal{
     margin: 10px auto;
 }
-.infopaypal, .infohrdiv, .infohrdiv2{
+.infopaypal{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.infohrdiv, .infohrdiv2{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .infopaypal img{
