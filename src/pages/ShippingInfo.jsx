@@ -11,7 +11,7 @@ import ShippingInfoFooter from '../components/ShippingInfoFooter';
 function ShippingInfo() {
       const [value, setValue] = useState('')
       const options = useMemo(() => countryList().getData(), [])
-
+      const place = [...states]
       const changeHandler = value => {
       setValue(value)
     }
@@ -89,14 +89,29 @@ function ShippingInfo() {
                             <input placeholder='City' type='text'/>
                             <div className={shippingstyles.infostateselect}>
                               <div>
-                                <select>
-                                  <option value='' selected>State</option>
-                                  {states.map((state)=>{
-                                    return(
-                                      <option value={state.code}>{state.name}</option>
-                                    )
+                                <Select
+                                  value={place.value}
+                                  options={place}
+                                  defaultValue={{label:'State', value:''}}
+                                  styles={{
+                                    control: (baseStyles, state) => ({
+                                      ...baseStyles,
+                                
+                                      backgroundColor:'white',
+                                      outline:'none',
+                                      border:'1px solid black'
+                                    }),
+                                  }}
+                                  theme={(theme) => ({
+                                    ...theme,
+                                    borderRadius: 0,
+                                    colors: {
+                                      ...theme.colors,
+                                      primary25: '#28bc9c',
+                                      primary: 'black'
+                                    },
                                   })}
-                                </select>
+                                />
                               </div>
                             </div>
                             <input placeholder='Postal code' type='number'/>

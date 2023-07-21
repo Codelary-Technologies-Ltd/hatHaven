@@ -89,21 +89,10 @@
     width: 100%
 }
 .infostateselect{
-    border: 1px solid black;
+    // border: 1px solid black;
     width: 30%;
 }
-.infostateselect select{
-    width: 100%;
-    border: none;
-    outline: none;
-    font-weight: lighter;
-    color: $secLightText;
-    margin-top: 10px;
-}
-.infostateselect option{
-    color: #28bc9c;
-    background-color: white;
-}
+
 .shipInfoButton{
     background: $accent;
     font-family: $fontPara;
