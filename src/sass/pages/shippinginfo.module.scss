@@ -4,9 +4,12 @@
 }
 .infocont{
     width: 50%;
+    // border: 2px solid blue;
+}
+.infocontain{
     margin: 0 auto;
     padding:0 40px 0 100px;
-    // border: 2px solid blue;
+
 }
 .infohrdiv, .infohrdiv2{
     width: 100%;
@@ -43,7 +46,7 @@
 .infopaypal img{
     width: 200px;
 }
-.infoform, .infocheckbox, .infoinputflex, .infoinputflex2, .infoinputflex3, .infobackarrow, .infofooter{
+.infoform, .infocheckbox, .infoinputflex, .infoinputflex2, .infoinputflex3, .infobackarrow{
     display: flex;
 }
 .infoform{
@@ -127,15 +130,9 @@
 .infobackarrow img{
     width: 11px;
 }
-.infofooter{
-    gap: 10px;
+.infofooterdiv{
     margin-top: 2rem;
-    border-top: 1px solid black;
 }
 .infobackbutton{
     font-size: 12px;
-}
-.infofooter p{
-    font-size: 8px;
-    font-weight: lighter;
 }
