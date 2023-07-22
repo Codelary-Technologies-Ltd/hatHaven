@@ -24,26 +24,26 @@
 
     &Container{
         display: flex;
-        gap: 20px;
         width: 100%;
-        padding: 5% 5% 2%;
+        padding: 2% 4% 2%;
         background-color: white;
     }
         
     &Image{
-        width: 50%;
+        width: 55%;
+        padding: 3% 0.2% 0;
+        margin-right: 0.7rem;
     }
     
     &Image img{
-        width: 50vw;
-        object-fit: fill;
-        max-width: 370px;
+        max-width: 100vw;
         height: 80%;
+        width: calc((450px / 0.97) - 1.4rem);
     }
 
     &Content{
         width: 0 auto;
-        padding: 0 3%;
+        padding: 2% 3%;
 
         &Header{
             font-size: 1.7rem;
@@ -103,23 +103,31 @@
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 960px) {
     .categoryItemPage{
         &Container{
             display: block;
         }
 
         &Image{
-            width: 100%;
+            width: 80vw;
         }
         
         &Image img{
-            max-width: 100%;
+            max-width: 80%;
             height: 100%;
         }
 
-    }
-    
+        &Content{
+            padding-left: 0;
+            width: 100%;
+
+             &Header{
+            font-size: 1.5rem;
+        }
+        
+        }     
+    }  
 }
 
 .categoryItemPageReview{
