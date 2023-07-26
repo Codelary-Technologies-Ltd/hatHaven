@@ -3,11 +3,11 @@ import Select, { components}  from 'react-select'
 import countryList from 'react-select-country-list'
 import backToCart from '../assets/svg/arrow-left.svg'
 import states from "../data/states.json";
-import ShippingInfoHead from '../components/ShippingInfoHead'
+import ShippingHeader from '../components/ShippingHeader'
 import ItemCheckout from '../components/ItemCheckout'
 import paypal from '../assets/png/paypal-logo.png'
 import shippingstyles from '../sass/pages/shippinginfo.module.scss'
-import ShippingInfoFooter from '../components/ShippingInfoFooter';
+import ShippingFooter from '../components/ShippingFooter';
 function ShippingInfo() {
       const [value, setValue] = useState('')
       const options = useMemo(() => countryList().getData(), [])
@@ -24,7 +24,7 @@ function ShippingInfo() {
         <div className={shippingstyles.infocont}>
           <div>
             <div>
-              <ShippingInfoHead/>
+              <ShippingHeader/>
                 <section className={shippingstyles.infocontain}>
                   <div className={shippingstyles.infohrdiv}>
                     <hr/>
@@ -129,7 +129,7 @@ function ShippingInfo() {
                       </div>
                     </form>
                     <div className={shippingstyles.infofooterdiv}>
-                      <ShippingInfoFooter/>
+                      <ShippingFooter/>
                     </div>
                   </div>
                 </section>
