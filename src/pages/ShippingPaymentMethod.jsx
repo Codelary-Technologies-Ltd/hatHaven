@@ -1,13 +1,13 @@
 import React from 'react'
 import style from '../sass/pages/shippingPaymentMethod.module.scss'
-import ShippingHead from './../components/ShippingHead'
+import ShippingHeader from './../components/ShippingHeader'
 import { ReactComponent as ArrowLeft } from './../assets/svg/arrow-left.svg'
 import ItemCheckout from './../components/ItemCheckout'
 const ShippingPaymentMethod = () => {
   return (
     <div className={style.shipping}>
         <div className={style.shippingPay}>
-            <ShippingHead />
+            <ShippingHeader />
             <section className={style.shippingPayMethod}>
                 <section className={style.shippingPayMethodContact}>
                     <div className={style.shippingPayMethodContactEmail}>
