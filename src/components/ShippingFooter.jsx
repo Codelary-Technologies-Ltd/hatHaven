@@ -4,10 +4,10 @@ function ShippingFooter() {
   return (
     <div className={shippingfooterstyles.shippingfootercontainer}>
       <div className={shippingfooterstyles.shippingfooter}>
-          <p>Refund Policy</p>
-          <p>Shipping Policy</p>
-          <p>Privacy Policy</p>
-          <p>Terms of service</p>
+        <a href=''><p>Refund Policy</p></a>
+        <a href=''><p>Shipping Policy</p></a>
+        <a href=''><p>Privacy Policy</p></a>
+        <a href=''><p>Terms of service</p></a>
       </div>
     </div>
   )
