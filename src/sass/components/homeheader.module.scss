@@ -55,3 +55,22 @@
         color: white;
     }
 }
+@media screen and (max-width: 695px) {
+    .homeHeadFlexContainer{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .homeImgContainerImg{
+        width: 150px;
+    }
+    .homeHeaderContainer{
+        padding-bottom: 2rem;
+    }
+    // .homeHeadText p{
+    //     font-size: 20px;
+    //     font-weight: 300;
+    // }
+    // .homeheadButton{
+    //     padding: 10px 3em;
+    // }
+}

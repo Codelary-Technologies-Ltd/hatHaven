@@ -3,21 +3,14 @@
     background: grey;
     color: $secondary;
     padding: 3em 0px;
-
-    // .hometestContain{
-    //     width: 90%;
-    //     border: 1px solid black;
-    // }
-    .testContain{
+    .testimonyTextWrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
     }
-    .testContainOne{
+    .testimonyOne{
         flex: 30%;
         position: relative;
-        // border: 1px solid pink;
     }
     .testContainOnebg{
         opacity: 0.2;
@@ -26,16 +19,16 @@
         width: 100px;
         height: 80px;
     }
-    .testContainOneDiv{
+    .testimonyHeadDiv{
         border-right: 1px solid $accent;
-        width: 80%;
+        width: 90%;
         padding: 20px 20px 20px 0px;
     }
-    .testContainOneDiv h2{
+    .testimonyHeadDiv h2{
         font-size: xx-large;
         font-weight: 300;
     }
-    .testContainOne p{
+    .testimonyOne p{
         line-height: .2em;
     }
     .testTwoHead{
@@ -52,5 +45,22 @@
     }
     .testContainTwo p{
         width: 90%;
+    }
+}
+@media screen and (max-width: 900px){
+    .testimonyHeadDiv p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 695px){
+    .testimonyTextWrapper{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .testimonyOne{
+        flex: 50%;
+    }
+    .testimonyHeadDiv {
+        border-right: none !important;/* Remove the border in the mobile version */
     }
 }

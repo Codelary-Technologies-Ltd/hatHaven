@@ -7,7 +7,6 @@
         justify-content: center;
         align-items: center;
         padding: 3em 0;
-
     }
     .newsContainer{
         display: flex;
@@ -52,5 +51,36 @@
     }
     .homeinputContainer{
         margin: 4rem 0 0;
+    }
+}
+@media screen and (max-width: 1000px){
+    .homeText h3{
+        font-size: 20px;
+    }
+    .homeText p{
+        font-size: 12px;
+    }
+    .homenewsButton{
+        padding: 10px 22px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .homeinputContainer{
+        margin: 3rem 0 0;
+    }
+    
+}
+@media screen and (max-width: 850px) {
+    .newsContainer img{
+        width: 200px;
+    }
+    .newsContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .homeinputContainer{
+        margin-top: 2rem;
     }
 }
