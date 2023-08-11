@@ -15,9 +15,7 @@
         justify-content: space-around;
         width: 80%;
     }
-    .newsContainer img{
-        width: 300px;
-    }
+    
     .homeText{
         display: flex;
         flex-direction: column;
@@ -49,20 +47,15 @@
         cursor: pointer;
         color: white;
     }
-    .homeinputContainer{
-        margin: 4rem 0 0;
-    }
+   
 }
 @media screen and (max-width: 1000px){
-    .homeText h3{
-        font-size: 20px;
-    }
+   
     .homeText p{
         font-size: 12px;
     }
     .homenewsButton{
-        padding: 10px 22px;
-        font-size: 10px;
+        // font-size: 10px;
         margin-top: 10px;
     }
     .homeinputContainer{
@@ -70,9 +63,25 @@
     }
     
 }
+@media screen and (min-width: 850px){
+    .newsContainer img{
+        width: 250px;
+    }
+    .homeinputContainer{
+        margin: 4rem 0 0;
+    }
+    .homenewsInput{
+        width: 70%;
+    }
+}
+@media screen and (min-width: 950px) {
+    .newsContainer img{
+        width: 300px;
+    }
+}
 @media screen and (max-width: 850px) {
     .newsContainer img{
-        width: 200px;
+        width: 90%;
     }
     .newsContainer{
         flex-direction: column;
@@ -82,5 +91,17 @@
     }
     .homeinputContainer{
         margin-top: 2rem;
+    }
+    
+    .homeText{
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .homeTextWrap{
+        width: 100%;
+    }
+    .homeText h3{
+        font-size: x-large;
     }
 }

@@ -15,16 +15,8 @@
         flex-direction: column;
         gap: 10px;
     }
-    .homeImgContainerImg{
-        width: 200px;
-        height: 250px;
-    }
-    .homeImgContainerImgs, .homeImgContainerImgs2{
-        width: 200px;
-    }
-    .homeImgContainerImgs2{
-        height: 49px;
-    }
+    
+    
     .homeHeadText{
         color: $secondary;
         justify-content: center;
@@ -33,7 +25,6 @@
     .homeHeadText p{
         font-size: 30px;
         font-weight: 400;
-        // position: relative;
     }
     .headCircleText{
         position: relative;
@@ -55,6 +46,18 @@
         color: white;
     }
 }
+@media screen and (min-width: 695px){
+    .homeImgContainerImg{
+        width: 200px;
+        height: 250px;
+    }
+    .homeImgContainerImgs, .homeImgContainerImgs2{
+        width: 200px;
+    }
+    .homeImgContainerImgs2{
+        height: 49px;
+    }
+}
 @media screen and (max-width: 695px) {
     .homeHeadFlexContainer{
         flex-direction: column;
@@ -62,15 +65,22 @@
     }
     .homeImgContainerImg{
         width: 150px;
+        height: 200px;
+    }
+    .homeImgContainerImgs, .homeImgContainerImgs2{
+        width: 150px;
+    }
+    .homeImgContainerImgs2{
+        height: 25px;
     }
     .homeHeaderContainer{
         padding-bottom: 2rem;
     }
-    // .homeHeadText p{
-    //     font-size: 20px;
-    //     font-weight: 300;
-    // }
-    // .homeheadButton{
-    //     padding: 10px 3em;
-    // }
+    .homeHeadText p{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .homeheadButton{
+        padding: 10px 3em;
+    }
 }

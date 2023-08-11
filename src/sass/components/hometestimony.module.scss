@@ -19,15 +19,8 @@
         width: 100px;
         height: 80px;
     }
-    .testimonyHeadDiv{
-        border-right: 1px solid $accent;
-        width: 90%;
-        padding: 20px 20px 20px 0px;
-    }
-    .testimonyHeadDiv h2{
-        font-size: xx-large;
-        font-weight: 300;
-    }
+    
+    
     .testimonyOne p{
         line-height: .2em;
     }
@@ -52,6 +45,17 @@
         font-size: 12px;
     }
 }
+@media screen and (min-width: 695px){
+    .testimonyHeadDiv{
+        border-right: 1px solid $accent;
+        width: 90%;
+        padding: 20px 20px 20px 0px;
+    }
+    .testimonyHeadDiv h2{
+        font-size: xx-large;
+        font-weight: 300;
+    }
+}
 @media screen and (max-width: 695px){
     .testimonyTextWrapper{
         flex-direction: column;
@@ -61,6 +65,12 @@
         flex: 50%;
     }
     .testimonyHeadDiv {
-        border-right: none !important;/* Remove the border in the mobile version */
+        border-right: none;/* Remove the border in the mobile version */
+    }
+    .testimonyHeadDiv h2{
+        font-size: x-large;
+    }
+    .testContainTwo p{
+        font-size: 12px;
     }
 }
