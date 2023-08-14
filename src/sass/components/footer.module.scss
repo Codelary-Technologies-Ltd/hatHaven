@@ -69,23 +69,8 @@
     }
 }
 
-@media screen and (max-width: 800px){
-    .footHeader h1{
-        font-size: 20px;
-    }
-    .footList{
-        gap: .5em;
-        font-size: 12px;
-    }
-    .footersocials{
-        font-size: 12px;
-    }
-}
-// @media screen and (max-width: 750px){
-//     .footersocials{
-//         font-size: 8px;
-//     }
-// }
+
+
 @media screen and (min-width: 600px){
     .footList{
         border-right: 1px solid grey;
@@ -100,6 +85,20 @@
         margin-left: 20px;
     }
 }
+
+@media screen and (max-width: 800px){
+    .footHeader h1{
+        font-size: 20px;
+    }
+    .footList{
+        gap: .5em;
+        font-size: 12px;
+    }
+    .footersocials{
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width: 600px){
     .footContainer, .footList{
         flex-direction: column;

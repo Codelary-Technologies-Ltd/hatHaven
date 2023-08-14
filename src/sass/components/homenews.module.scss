@@ -63,6 +63,13 @@
     }
     
 }
+
+@media screen and (min-width: 950px) {
+    .newsContainer img{
+        width: 300px;
+    }
+}
+
 @media screen and (min-width: 850px){
     .newsContainer img{
         width: 250px;
@@ -74,11 +81,7 @@
         width: 70%;
     }
 }
-@media screen and (min-width: 950px) {
-    .newsContainer img{
-        width: 300px;
-    }
-}
+
 @media screen and (max-width: 850px) {
     .newsContainer img{
         width: 90%;
