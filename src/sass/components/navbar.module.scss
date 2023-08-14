@@ -56,4 +56,23 @@
         color: $accent;
     }
     
+    
+}
+@media screen and (min-width: 751px){
+    .navHamburger{
+        display: none;
+    }
+}
+@media screen and (max-width: 750px) {
+    .navList, .navIcon p{
+        display: none;
+    }
+    .navHamburger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navHeader h1{
+        font-size:large;
+    }
 }

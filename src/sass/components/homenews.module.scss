@@ -71,9 +71,7 @@
 }
 
 @media screen and (min-width: 850px){
-    .newsContainer img{
-        width: 250px;
-    }
+    
     .homeinputContainer{
         margin: 4rem 0 0;
     }
@@ -82,7 +80,13 @@
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (min-width: 850px) and (max-width:949px){
+    .newsContainer img{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 849px) {
     .newsContainer img{
         width: 90%;
     }
