@@ -42,7 +42,7 @@ function Navbar() {
                       <span className={styles.hamSpan}></span>
                     <ul className={styles.hamburger}>
                       <a href='#Home'><li>Home</li></a>
-                      <a href='#services'><li>Shop</li></a>
+                      <a href='#shop'><li>Shop</li></a>
                       <a href='#about'><li>About</li></a>
                       <a href='#contact'><li>Contact</li></a>
                     </ul>
