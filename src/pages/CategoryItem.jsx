@@ -52,25 +52,28 @@ function CategoryItem() {
                             </p>
                         </div>
 
-                        <div className={style.categoryItemPageContentColor}>
-                            <p className={style.categoryPageContentPara}>
-                                Color:
-                            </p>
+                        <div className={style.categoryItemPageContentColAmt}>
+                            
+                            <div className={style.categoryItemPageContentColor}>
+                                <p className={style.categoryPageContentPara}>
+                                    Color:
+                                </p>
 
-                            <div className={style.categoryItemPageContentColorImg}>
-                                <div></div>
+                                <div className={style.categoryItemPageContentColorImg}>
+                                    <div></div>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className={style.categoryItemPageContentAmount}>                           
-                            <p className={style.categoryPageContentPara}>
-                                Amount:
-                            </p>
+                            <div className={style.categoryItemPageContentAmount}>                           
+                                <p className={style.categoryPageContentPara}>
+                                    Amount:
+                                </p>
 
-                            <div className={style.categoryItemPageContentAmountBox}>                             
-                                <BiMinus onClick={DecreaseAmount} />
-                                <p>{counter}</p>
-                                <BiPlus onClick={IncreaseAmount} />
+                                <div className={style.categoryItemPageContentAmountBox}>                             
+                                    <BiMinus onClick={DecreaseAmount} />
+                                    <p>{counter}</p>
+                                    <BiPlus onClick={IncreaseAmount} />
+                                </div>
                             </div>
                         </div>
                         

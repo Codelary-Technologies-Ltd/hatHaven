@@ -59,6 +59,7 @@
             font-size: 0.9rem;
             line-height: 20px;
             font-family: $fontPara;
+            text-align:justify;
         }
 
         &Price{
@@ -163,8 +164,14 @@
         
         &Image img{
             max-width: 100vw;
-            width: calc((60vw / 0.97) - 0.5rem);
+            width: calc((65vw / 0.97) - 0.5rem);
         }
+
+        // &ContentColAmt{
+        //     display: flex;
+        //     justify-content: space-between;
+        //     align-items: start;
+        // }
     }
 }
 
@@ -180,6 +187,8 @@
 
         &Image{
             width: 100%;
+            display: flex;
+            justify-content: center;
         }
 
         &Content{   
@@ -188,6 +197,12 @@
 
             &Header{
                 font-size: 1.5rem;
+            }
+
+            &ColAmt{
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
             }
         
         }     
@@ -219,11 +234,11 @@
         &Image{
             width: 100%;
             display: flex;
-            justify-content: start;
+            justify-content: center;
         }
         
         &Image img{
-            width: 90%;
+            width: 100%;
             max-width: 100vw;
         }
 
@@ -234,6 +249,11 @@
             &Header{
                 font-size: 1.5rem;
             }
+
+            &AmountBox{
+                width: 100px;
+                height: 35px;   
+            }    
         
         }     
     }  

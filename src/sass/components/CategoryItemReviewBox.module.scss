@@ -1,6 +1,6 @@
 .categoryItemPageReviewBoxContent{
     background-color: white;
-    padding: 0 2% 1%;
+    padding: 0 3% 1%;
     border: 1px solid $primary;
     margin:20px;
         
@@ -11,7 +11,8 @@
         
         h3{
             display: flex;
-            gap: 10px;
+            align-items: center;
+            gap: 0.5em;
             font-size: 1rem;
             letter-spacing: 0.04em;
             font-weight: bold;
@@ -24,5 +25,34 @@
         font-size: 0.8rem;
         margin-bottom: 20px;
         font-family: $fontPara;
+        text-align: justify;
+    }
+}
+
+
+
+
+
+
+// MOBILE VIEW
+
+
+
+@media screen and (max-width: 420px) {
+    .categoryItemPageReviewBoxContent{
+            
+        &Header{
+            display: block;
+            padding: 4% 0;
+            
+            h3{
+                margin: 0.3em 0;
+            }
+        }
+        
+        p{
+            margin: 1.5em 0;
+        }
+
     }
 }
