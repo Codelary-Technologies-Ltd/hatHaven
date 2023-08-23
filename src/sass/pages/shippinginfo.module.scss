@@ -4,9 +4,12 @@
 }
 .infocont{
     width: 50%;
+    // border: 2px solid blue;
+}
+.infocontain{
     margin: 0 auto;
     padding:0 40px 0 100px;
-    // border: 2px solid blue;
+
 }
 .infohrdiv, .infohrdiv2{
     width: 100%;
@@ -43,7 +46,7 @@
 .infopaypal img{
     width: 200px;
 }
-.infoform, .infocheckbox, .infoinputflex, .infoinputflex2, .infoinputflex3, .infobackarrow, .infofooter{
+.infoform, .infocheckbox, .infoinputflex, .infoinputflex2, .infoinputflex3, .infobackarrow{
     display: flex;
 }
 .infoform{
@@ -86,21 +89,10 @@
     width: 100%
 }
 .infostateselect{
-    border: 1px solid black;
+    // border: 1px solid black;
     width: 30%;
 }
-.infostateselect select{
-    width: 100%;
-    border: none;
-    outline: none;
-    font-weight: lighter;
-    color: $secLightText;
-    margin-top: 10px;
-}
-.infostateselect option{
-    color: #28bc9c;
-    background-color: white;
-}
+
 .shipInfoButton{
     background: $accent;
     font-family: $fontPara;
@@ -127,15 +119,6 @@
 .infobackarrow img{
     width: 11px;
 }
-.infofooter{
-    gap: 10px;
-    margin-top: 2rem;
-    border-top: 1px solid black;
-}
 .infobackbutton{
     font-size: 12px;
-}
-.infofooter p{
-    font-size: 8px;
-    font-weight: lighter;
 }

@@ -1,148 +1,119 @@
 [
       {
-        "code": "AB",
-        "name": "Abia",
-        "capital": "Umuahia"
+        "value": "AB",
+        "label": "Abia"
       },
       {
-        "code": "AD",
-        "name": "Adamawa",
-        "capital": "Yola"
+        "value": "AD",
+        "label": "Adamawa"
       },
       {
-        "code": "AK",
-        "name": "Akwa Ibom",
-        "capital": "Uyo"
+        "value": "AK",
+        "label": "Akwa Ibom"
+       },
+      {
+        "value": "AN",
+        "label": "Anambra"
       },
       {
-        "code": "AN",
-        "name": "Anambra",
-        "capital": "Awka"
+        "value": "BA",
+        "label": "Bauchi"
       },
       {
-        "code": "BA",
-        "name": "Bauchi",
-        "capital": "Bauchi"
+        "value": "BY",
+        "label": "Bayelsa"
       },
       {
-        "code": "BY",
-        "name": "Bayelsa",
-        "capital": "Yenagoa"
+        "value": "BE",
+        "label": "Benue"
       },
       {
-        "code": "BE",
-        "name": "Benue",
-        "capital": "Makurdi"
+        "value": "BO",
+        "label": "Borno"
       },
       {
-        "code": "BO",
-        "name": "Borno",
-        "capital": "Maiduguri"
+        "value": "CR",
+        "label": "Cross River"
       },
       {
-        "code": "CR",
-        "name": "Cross River",
-        "capital": "Calabar"
+        "value": "DE",
+        "label": "Delta"
       },
       {
-        "code": "DE",
-        "name": "Delta",
-        "capital": "Asaba"
+        "value": "EB",
+        "label": "Ebonyi"
       },
       {
-        "code": "EB",
-        "name": "Ebonyi",
-        "capital": "Abakaliki"
+        "value": "ED",
+        "label": "Edo"
       },
       {
-        "code": "ED",
-        "name": "Edo",
-        "capital": "Benin City"
+        "value": "EK",
+        "label": "Ekiti"
       },
       {
-        "code": "EK",
-        "name": "Ekiti",
-        "capital": "Ado Ekiti"
+        "value": "EN",
+        "label": "Enugu"
       },
       {
-        "code": "EN",
-        "name": "Enugu",
-        "capital": "Enugu"
+        "value": "GO",
+        "label": "Gombe"
       },
       {
-        "code": "GO",
-        "name": "Gombe",
-        "capital": "Gombe"
+        "value": "IM",
+        "label": "Imo"
       },
       {
-        "code": "IM",
-        "name": "Imo",
-        "capital": "Owerri"
+        "value": "JI",
+        "label": "Jigawa"
       },
       {
-        "code": "JI",
-        "name": "Jigawa",
-        "capital": "Dutse"
+        "value": "KA",
+        "label": "Kaduna"
       },
       {
-        "code": "KA",
-        "name": "Kaduna",
-        "capital": "Kaduna"
+        "value": "KN",
+        "label": "Kano"
       },
       {
-        "code": "KN",
-        "name": "Kano",
-        "capital": "Kano"
+        "value": "KT",
+        "label": "Katsina"
       },
       {
-        "code": "KT",
-        "name": "Katsina",
-        "capital": "Katsina"
+        "value": "KE",
+        "label": "Kebbi"
       },
       {
-        "code": "KE",
-        "name": "Kebbi",
-        "capital": "Birnin Kebbi"
+        "value": "KO",
+        "label": "Kogi"
       },
       {
-        "code": "KO",
-        "name": "Kogi",
-        "capital": "Lokoja"
+        "value": "KW",
+        "label": "Kwara"
       },
       {
-        "code": "KW",
-        "name": "Kwara",
-        "capital": "Ilorin"
+        "value": "LA",
+        "label": "Lagos"
       },
       {
-        "code": "LA",
-        "name": "Lagos",
-        "capital": "Ikeja"
+        "value": "NA",
+        "label": "Nasarawa"
       },
       {
-        "code": "NA",
-        "name": "Nasarawa",
-        "capital": "Lafia"
+        "value": "NE",
+        "label": "Niger"
       },
       {
-        "code": "NE",
-        "name": "Niger",
-        "capital": "Minna"
+        "value": "OG",
+        "label": "Ogun"
       },
       {
-        "code": "OG",
-        "name": "Ogun",
-        "capital": "Abeokuta"
+        "value": "ON",
+        "label": "Ondo"
       },
       {
-        "code": "ON",
-        "name": "Ondo",
-        "capital": "Akure"
-      },
-      {
-        "code": "OS",
-        "name": "Osun",
-        "capital":"Oshogbo"
+        "value": "OS",
+        "label": "Osun"
       }
 ]
         
