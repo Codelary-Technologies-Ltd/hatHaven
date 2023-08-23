@@ -113,8 +113,7 @@
     gap: 30px;
     align-items: start;
     justify-content: space-between;
-    width: 100%;
-    padding: 4% 0;
+    padding: 4% 0%;
 
 
     &Form{
@@ -176,8 +175,8 @@
 }
 
 
-// TABLET VIEW
 
+// TABLET VIEW
 
 @media screen and (max-width: 767px) {
     .categoryItemPage{
@@ -210,6 +209,9 @@
 
     .categoryItemPageReview{
         display: block;
+        justify-self: center;
+        align-items: center;
+        padding: 4% 0%;
 
         &Form{
             width: 80%;
@@ -222,8 +224,6 @@
 
 
 // MOBILE VIEW
-
-
 
 @media screen and (max-width: 480px) {
     .categoryItemPage{
@@ -261,6 +261,7 @@
 
     .categoryItemPageReview{
         display: block;
+        padding:4% 0;
 
         &Form{
             width: 80%;
