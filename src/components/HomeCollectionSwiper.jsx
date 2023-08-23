@@ -13,14 +13,27 @@ import { pictures } from "../data/picture";
 
 function HomeCollectionSwiper() {
   SwiperCore.use([Navigation, Pagination, EffectFade, Autoplay]);
-
+  
+  const perView = ()=>{
+    if (window.innerWidth <= 600) 
+    {return 2}
+    else if (window.innerWidth <= 900){ return 3}
+    else return 4
+  }
+  const space = ()=>{
+    if (window.innerWidth < 480) 
+    {return 20}
+    else if (window.innerWidth <= 900){ return 35}
+    else return 50
+  }
   return (
     <div>
       <div>
         <section>
           <Swiper
-            spaceBetween={50}
-            slidesPerView={4}
+            spaceBetween={space()}
+            // slidesPerView={4}
+            slidesPerView={perView()}
             slideClass={styles2.slideT}
             speed={3000}
             loop={true}
