@@ -1,5 +1,5 @@
 import React from 'react'
-import style from "./../sass/components/CategoryItemReviewBox.module.scss"
+import style from "./../sass/components/categoryItemReviewBox.module.scss"
 import catItemReview from './../data/catItemReview.json'
 import { VscVerifiedFilled } from 'react-icons/vsc';
 

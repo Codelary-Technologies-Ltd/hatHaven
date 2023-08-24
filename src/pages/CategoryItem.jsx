@@ -1,5 +1,5 @@
 import { useState } from "react";
-import style from "./../sass/pages/CategoryItem.module.scss"
+import style from "./../sass/pages/categoryItem.module.scss"
 import CategoryItemReviewBox from "../components/CategoryItemReviewBox";
 import BucketHat from '../assets/png/bucketHat.png';
 import { BiPlus, BiMinus } from 'react-icons/bi';
