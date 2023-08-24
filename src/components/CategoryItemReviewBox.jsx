@@ -7,7 +7,7 @@ import { VscVerifiedFilled } from 'react-icons/vsc';
 
 function CategoryItemReviewBox() {
     return (
-        <div className='container'>
+        <div className='containerr'>
             {
                 catItemReview.map((item, index) =>(
                     <React.Fragment key={index}>
