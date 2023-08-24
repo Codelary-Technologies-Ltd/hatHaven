@@ -31,7 +31,7 @@
     cursor: pointer;
     border: none;
 }
-.shopCartHidden, .shopDetailsHiddenSection, .cartDeleteIcon{
+.shopDetailsHiddenSection, .shoppingCartResponsiveness{
     display: none;
 }
 @media screen and (max-width: 1000px){
@@ -52,23 +52,30 @@
 }
 
 @media screen and (max-width: 819px){
+    .shoppingCartResponsiveness{
+        display: block;
+        width: 100%;
+    }
     .shopMobileDetails{
         gap: .2rem;
         align-items: flex-end;
         margin-right: 0em;
     }
+    .shopCartHidden, .shopDetailsHiddenSection{
+        border-bottom: 1px solid $accent;
+    }
+    .shopCartHidden, .shopMobileTotal p{
+        font-weight: bold;
+    }
     .shopCartDetails, .shopMobileDetails, .shopDetails2Hidden, .shopDetails2Div{
         flex-direction: column;
     }
-    .shopCartHidden, .cartDeleteIcon{
-        display: block;
-    }
-    .shopDetails2Hidden, .shopDetails2Div, .shopDetailsHiddenSection{
+    .shopDetails2Hidden, .shopDetails2Div, .shopDetailsHiddenSection, .shopMobileImg, .shopMobileTotal{
         display: flex;
     }
-    .shopDetailsHiddenSection{
-        width: 100%;
+    .shopDetailsHiddenSection, .shopMobileImg, .shopMobileTotal{
         justify-content: space-between;
+        // border: 2px solid $accent;
     }
     .shopDetails2Div{
         align-items: flex-end;
@@ -78,7 +85,7 @@
         width: 100%;
         padding-bottom:  2rem;
     }
-    .shopDetails2, .shopDetails2p{
+    .shopDetails2, .shopDetails2p,.shopImgDiv{
         display: none;
     }
 }

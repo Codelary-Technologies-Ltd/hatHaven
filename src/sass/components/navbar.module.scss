@@ -63,6 +63,21 @@
         display: none;
     }
 }
+@media screen and (min-width: 600px) and (max-width: 750px){
+    .resInp{
+        display: block;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 5px;
+        right: 5em;
+        /* left: -5px; */
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2; /* and place it over the hamburger */
+        -webkit-touch-callout: none;
+    }
+}
 @media screen and (max-width: 750px) {
     .navList, .navIcon p{
         display: none;
@@ -75,22 +90,10 @@
     .navHeader h1{
         font-size:large;
     }
-    .resInp{
-        display: block;
-        width: 20px;
-        height: 25px;
-        position: absolute;
-        top: 5px;
-        right: 5em;
-        /* left: -5px; */
-        cursor: pointer;
-        opacity: 0;
-        z-index: 2; /* and place it over the hamburger */
-        -webkit-touch-callout: none;
-    }
+   
     .hamSpan{
         display: block;
-        width: 33px;
+        width: 22px;
         height: 4px;
         margin-bottom: 5px;
         position: relative;
@@ -111,7 +114,7 @@
 
     .resInp:checked ~ .hamSpan{
         opacity: 1;
-        transform: rotate(45deg) translate(-2px, -1px);
+        transform: rotate(45deg) translate(2px, 5px);
         background: white;
     }
     .resInp:checked ~ .hamSpan:nth-last-child(3){
@@ -126,10 +129,10 @@
     .hamburger{
         /* display: none; */
         position: absolute;
-        width: fit-content;
-        margin: -100px 0 0 -50px;
-        padding: 50px;
-        padding-top: 120px;
+        width: 100%;
+        margin: -100px 0 0 -86%;
+        padding: 80px 50px 10px;
+        // padding-top: 120px;
         background: $primary;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
@@ -142,6 +145,10 @@
     .hamburger li{
         padding: 10px 0;
         font-size: 15px;
+        // border-bottom: 1px solid $secondary;
+    }
+    .hamburger li:hover{
+        color: $accent;
     }
     .hamburger a{
         color: $secondary;
@@ -151,5 +158,21 @@
     .resInp:checked ~ .hamburger{
         transform: none;
     }
+}
+@media screen and (max-width: 599px) {
+    .resInp{
+        display: block;
+        width: 20px;
+        height: 25px;
+        position: absolute;
+        top: 5px;
+        right: 4em;
+        /* left: -5px; */
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2; /* and place it over the hamburger */
+        -webkit-touch-callout: none;
+    }
+
 }
 

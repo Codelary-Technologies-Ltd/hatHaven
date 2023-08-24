@@ -10,13 +10,10 @@
     .homeHeadFlexContainer{
         gap: 3em;
     }
-    
     .homeImgContainer{
         flex-direction: column;
         gap: 10px;
     }
-    
-    
     .homeHeadText{
         color: $secondary;
         justify-content: center;
@@ -40,10 +37,15 @@
         background: $accent; 
         font-family: $fontPara;
     }
-    
     .homeheadButton:hover{
         cursor: pointer;
         color: white;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 780px){
+    .homeHeadText p{
+        font-size: 20px;
+        font-weight: 300;
     }
 }
 @media screen and (min-width: 695px){
