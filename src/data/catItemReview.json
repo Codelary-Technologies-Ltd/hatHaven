@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Esther Howard",
         "date": "10/02/23 ",
-        "reviewmessage":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur cumque tenetur nihil ab illum saepe non omnis iure accusamus nisi aut maxime quos est explicabo itaque, enim et voluptatem!",
+        "reviewmessage":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur cumque tenetur nihil ab illum saepe non omnis iure accusamus nisi aut maxime quos est explicabo itaque, enim et voluptatem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur cumque tenetur nihil ab illum saepe non omnis iure accusamus nisi aut maxime quos est explicabo itaque, enim et voluptatem!",
         "rating":"star star star"
     },
 
@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Jacob Jones",
       "date": "10/02/23 ",
-      "reviewmessage":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur cumque tenetur nihil ab illum saepe non omnis iure accusamus nisi aut maxime quos est explicabo itaque, enim et voluptatem!",
+      "reviewmessage":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur cumque tenetur nihil ab illum saepe non omnis iure accusamus nisi aut maxime quos est explicabo itaque, enim et voluptatem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur cumque tenetur nihil ab illum saepe non omnis iure accusamus nisi aut maxime quos est explicabo itaque, enim et voluptatem!",
       "rating":"star star star"
     }
    
