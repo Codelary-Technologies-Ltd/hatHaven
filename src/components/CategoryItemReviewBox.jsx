@@ -5,7 +5,7 @@ import { VscVerifiedFilled } from 'react-icons/vsc';
 
 
 
-function CategoryItemReviewBox() {
+function CategoryItemReviewBox() { 
     return (
         <div className='containerr'>
             {
