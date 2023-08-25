@@ -17,3 +17,11 @@ body,html{
 
 // font-family: 'IM Fell Double Pica SC', serif;
 // font-family: 'Exo 2', sans-serif;
+
+
+//for the tablet view
+@media screen and (max-width:769px) {
+  .container{
+    width: 90%;
+  }
+}
