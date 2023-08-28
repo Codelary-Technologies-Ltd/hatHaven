@@ -1,5 +1,5 @@
 import { useState } from "react";
-import style from "./../sass/pages/CategoryItem.module.scss"
+import style from "./../sass/pages/categoryItem.module.scss"
 import CategoryItemReviewBox from "../components/CategoryItemReviewBox";
 import BucketHat from '../assets/png/bucketHat.png';
 import { BiPlus, BiMinus } from 'react-icons/bi';
@@ -41,7 +41,7 @@ function CategoryItem() {
                     <form action="">
                         <div className={style.categoryItemPageContentInfo}>
                             <h1 className={style.categoryItemPageContentHeader}>Warning Bucket Hat</h1>
-                            <p className={style.categoryItemPageContentPara}> A bucket hat that features a striking and bold warning design on its body. This unique bucket hat is perfect for those who want to stand out from the crouwd and make a statement.   The warning design adds an edgy and eye catching element to the hat, making it a great accessory for any casual outfit. Made with high quality materials, this bucket hat is both comfortable and durable, making it a great addition to any hat collection.
+                            <p className={style.categoryItemPageContentPara}> A bucket hat that features a striking and bold warning design on its body. This unique bucket hat is perfect for those who want to stand out from the crowd and make a statement.   The warning design adds an edgy and eye catching element to the hat, making it a great accessory for any casual outfit. Made with high quality materials, this bucket hat is both comfortable and durable, making it a great addition to any hat collection.
                             </p>
                         </div>
                         
@@ -52,25 +52,28 @@ function CategoryItem() {
                             </p>
                         </div>
 
-                        <div className={style.categoryItemPageContentColor}>
-                            <p className={style.categoryPageContentPara}>
-                                Color:
-                            </p>
+                        <div className={style.categoryItemPageContentColAmt}>
+                            
+                            <div className={style.categoryItemPageContentColor}>
+                                <p className={style.categoryPageContentPara}>
+                                    Color:
+                                </p>
 
-                            <div className={style.categoryItemPageContentColorImg}>
-                                <div></div>
+                                <div className={style.categoryItemPageContentColorImg}>
+                                    <div></div>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className={style.categoryItemPageContentAmount}>                           
-                            <p className={style.categoryPageContentPara}>
-                                Amount:
-                            </p>
+                            <div className={style.categoryItemPageContentAmount}>                           
+                                <p className={style.categoryPageContentPara}>
+                                    Amount:
+                                </p>
 
-                            <div className={style.categoryItemPageContentAmountBox}>                             
-                                <BiMinus onClick={DecreaseAmount} />
-                                <p>{counter}</p>
-                                <BiPlus onClick={IncreaseAmount} />
+                                <div className={style.categoryItemPageContentAmountBox}>                             
+                                    <BiMinus onClick={DecreaseAmount} />
+                                    <p>{counter}</p>
+                                    <BiPlus onClick={IncreaseAmount} />
+                                </div>
                             </div>
                         </div>
                         

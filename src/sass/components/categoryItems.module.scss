@@ -22,3 +22,47 @@
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    
+    .catergoryItems{
+        
+        .catergoryItem{
+            width: 29%;
+            
+            img.catergoryItemImg{
+                width: 100%;
+                // height: 370px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 581px) {
+    
+    .catergoryItems{
+        
+        .catergoryItem{
+            width: 29%;
+            
+            img.catergoryItemImg{
+                width: 100%;
+                // height: 370px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 426px) {
+    
+    .catergoryItems{
+    
+        .catergoryItem{
+            width: 45%;
+    
+            img.catergoryItemImg{
+                width: 100%;
+                // height: 370px;
+            }
+        }
+    }
+}
