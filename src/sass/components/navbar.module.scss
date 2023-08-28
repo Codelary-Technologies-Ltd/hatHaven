@@ -158,15 +158,13 @@
     .resInp:checked ~ .hamburger{
         transform: none;
     }
-}
-@media screen and (max-width: 599px) {
     .resInp{
         display: block;
         width: 20px;
         height: 25px;
         position: absolute;
-        top: 5px;
-        right: 4em;
+        top: 6px;
+        right: 2.2em;
         /* left: -5px; */
         cursor: pointer;
         opacity: 0;
@@ -175,4 +173,7 @@
     }
 
 }
+// @media screen and (max-width: 599px) {
+   
+// }
 
