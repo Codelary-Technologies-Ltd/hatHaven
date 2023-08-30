@@ -146,6 +146,9 @@
 }
 @media screen and (max-width: 585px){
     .aboutUs{
+        & h1{
+          text-align: center;  
+        }
         &Section{
             flex-direction: column-reverse;
             gap: 20px;
