@@ -7,7 +7,39 @@
     &Section{
         display: flex;
         align-items: center;
-       justify-content: space-between;
+        justify-content: space-between;
+        width: 80%;
+        margin: 30px auto;
+
+        & img{
+            width: 350px;
+            max-width: 47%;
+        }
+
+        &Content{
+            width: 47%
+        } 
+
+        & h1{
+            color: $lightText;
+            font-style: normal;
+            letter-spacing: 0.04em;
+            font-weight: 500;
+            font-size: 2rem;
+        }
+
+        & p{
+            color: #666666;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 38px;
+            text-align: justify;
+        }
+    }
+    &Section2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         width: 80%;
         margin: 30px auto;
 
@@ -45,8 +77,98 @@
         &Section{
             width: 95%;
             & img{
-                width: 330px;
+                width: 100%;
             }
+        }
+        &Section2{
+            width: 95%;
+            & img{
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 900px){
+    .aboutUs{
+        &Section{
+            width: 100%;
+            
+    
+            & p{
+                color: #666666;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: justify;
+            }
+        }
+        &Section2{
+            width: 100%;
+            
+    
+            & p{
+                color: #666666;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: justify;
+            }
+        }
+    }
+}
+@media screen and (max-width: 900px){
+    .aboutUs{
+        &Section{
+            width: 100%;
+            
+    
+            & p{
+                color: #666666;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: justify;
+            }
+        }
+        &Section2{
+            width: 100%;
+            
+    
+            & p{
+                color: #666666;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: justify;
+            }
+        }
+    }
+}
+@media screen and (max-width: 585px){
+    .aboutUs{
+        &Section{
+            flex-direction: column-reverse;
+            gap: 20px;
+            
+            & img{
+                width: 100%;
+            }
+    
+            &Content{
+                width: 100%
+            } 
+        }
+        &Section2{
+            flex-direction: column;
+            gap: 20px;
+            
+            & img{
+                width: 100%;
+            }
+    
+            &Content{
+                width: 100%
+            } 
         }
     }
 }
