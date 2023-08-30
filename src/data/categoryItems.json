@@ -1,47 +1,47 @@
 [
 	{
         "Id": 1,
-		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/buckethat6.jpg"
+		"itemImage": "https://res.cloudinary.com/dnss0pnwn/image/upload/v1686768638/buckethat6_xpek0v.jpg"
 		
 	},
 	{
         "Id": 2,
-		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/buckethat7.jpg"
+		"itemImage": "https://res.cloudinary.com/dnss0pnwn/image/upload/v1686768638/buckethat7_ozyi0c.jpg"
 		
 	},
 	{
         "Id": 3,
-		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/bucket4.png"
+		"itemImage": "https://res.cloudinary.com/dnss0pnwn/image/upload/v1686768636/bucket4_o3qq4h.png"
 		
 	},
 	{
         "Id": 4,
-		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/buckethat15.png"
+		"itemImage": "https://res.cloudinary.com/dnss0pnwn/image/upload/v1686768638/buckethat15_grpjmr.png"
 		
 	},
 	{
         "Id": 5,
-		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/coke-bucket-hat.png"
+		"itemImage": "https://res.cloudinary.com/dnss0pnwn/image/upload/v1686768640/coke-bucket-hat_thpkuu.png"
 		
 	},
 	{
         "Id": 6,
-		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/buckethat8.jpg"
+		"itemImage": "https://res.cloudinary.com/dnss0pnwn/image/upload/v1686768639/buckethat8_mcm22b.jpg"
 		
 	},
 	{
         "Id": 7,
-		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/buckethat9.jpg"
+		"itemImage": "https://res.cloudinary.com/dnss0pnwn/image/upload/v1686768638/buckethat9_i1lb3y.jpg"
 		
 	},
 	{
         "Id": 7,
-		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/fcmb.jpg"
+		"itemImage": "https://res.cloudinary.com/dnss0pnwn/image/upload/v1686768641/fcmb_qxacwv.jpg"
 		
 	},
     {
         "Id": 7,
-		"itemImage": "./../src/assets/png/categories-of -hats/bucket hat/buckethat10.jpg"
+		"itemImage": "https://res.cloudinary.com/dnss0pnwn/image/upload/v1686768636/buckethat10_zkk7wi.jpg"
 		
 	}
 ]

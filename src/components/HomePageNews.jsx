@@ -9,12 +9,14 @@ function HomePageNews() {
                 <div className={styles.newsContainer}>
                     <img src={pic}/>
                     <div className={styles.homeText}>
-                        <div>
+                        <div className={styles.homeTextWrap}>
                             <h3>The Hat Insider:</h3>
                             <p>Be the First to Know About Our New Arrivals</p>
                             <div className={styles.homeinputContainer}>
-                            <input placeholder='Email' className={styles.homenewsInput} type='email'/>
-                            <button className={styles.homenewsButton}>Sign Up</button>
+                                <div className={styles.homeInputWrap}>
+                                    <input placeholder='Email' className={styles.homenewsInput} type='email'/>
+                                    <button className={styles.homenewsButton}>Sign Up</button>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -5,13 +5,13 @@ function HomePageTestimonial() {
   return (
     <div className={styles1.hometestContainer}>
         <div className='container'>
-            <div className={styles1.hometestContain}>
-                <div className={styles1.testContain}>
-                    <section className={styles1.testContainOne}>
+            <div className={styles1.hometestismonyWrap}>
+                <div className={styles1.testimonyTextWrapper}>
+                    <section className={styles1.testimonyOne}>
                         <div>
                             <img src={Testbg} alt='bg' className={styles1.testContainOnebg}/>
                         </div>
-                        <div className={styles1.testContainOneDiv}>
+                        <div className={styles1.testimonyHeadDiv}>
                             <h2>Testimonials</h2>
                             <p>See what our customers</p>
                             <p>are saying</p>
