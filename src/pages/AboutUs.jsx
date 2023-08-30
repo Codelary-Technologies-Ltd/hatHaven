@@ -23,7 +23,7 @@ const AboutUs = () => {
             </p>
           </div>
         </section>
-        <section className={style.aboutUsSection}>
+        <section className={style.aboutUsSection2}>
           <div className={style.aboutUsSectionContent}>
             <h1>OUR MISSION</h1>
             <p>
