@@ -16,7 +16,9 @@ body,html{
 }
 .linksColor{
   color: $secondary;
-  text-decoration: none;
+}
+a, Link{
+  text-decoration: none; 
 }
 .linksColor:hover{
   color: $accent;

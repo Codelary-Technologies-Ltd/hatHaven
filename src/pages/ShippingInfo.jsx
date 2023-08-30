@@ -121,10 +121,12 @@ function ShippingInfo() {
                             <input placeholder='Phone' type='number'/>
                         </div>
                       </section>
-                      <a href='back' className={shippingstyles.infobackarrow}>
+                      <Link to='/shopping-cart'>
+                      <a href='#back' className={shippingstyles.infobackarrow}>
                           <img src={backToCart} alt='back'/>
                           <p className={shippingstyles.infobackbutton}>Return to cart</p>
                       </a>
+                      </Link>
                       <Link to='/shipping-payment'>
                       <div>
                           <button className={shippingstyles.shipInfoButton}>Continue to Shipping</button>
