@@ -11,13 +11,14 @@ import SignUp from './pages/SignUp';
 import Login from './pages/Login';
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
+import ShippingPaymentMethod from './pages/ShippingPaymentMethod';
 function App() {
 
   return (
     <>
       <div>
-        <Navbar />
         <BrowserRouter>
+          <Navbar />
           <Routes>
             <Route path='/' element={<Home />}/>    
             <Route path='/sign-up' element={<SignUp />}/>    
@@ -28,9 +29,10 @@ function App() {
             <Route path='/shopping-cart' element={<ShoppingCart />}/>     
             <Route path='/about-us' element={<AboutUs />}/>     
             <Route path='/contact-us' element={<ContactUs />}/>
+            <Route path='/shipping-payment' element={<ShippingPaymentMethod />}/>
           </Routes>
+          <Footer />
         </BrowserRouter>
-        <Footer />
       </div>
     </>
   )

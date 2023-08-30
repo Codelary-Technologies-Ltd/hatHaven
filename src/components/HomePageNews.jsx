@@ -1,5 +1,7 @@
 import styles from '../sass/components/homenews.module.scss'
 import pic from '../assets/png/news1.png'
+import { Link } from "react-router-dom";
+
 
 function HomePageNews() {
   return (
@@ -15,7 +17,9 @@ function HomePageNews() {
                             <div className={styles.homeinputContainer}>
                                 <div className={styles.homeInputWrap}>
                                     <input placeholder='Email' className={styles.homenewsInput} type='email'/>
-                                    <button className={styles.homenewsButton}>Sign Up</button>
+                                    <Link to='/sign-up'>
+                                        <button className={styles.homenewsButton}>Sign Up</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
