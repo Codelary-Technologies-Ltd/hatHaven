@@ -69,3 +69,25 @@
         }
     }
 }
+
+@media screen and (max-width: 769px) {
+
+    .auth{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 376px) {
+
+    .auth{
+        &Details{
+    
+            aside{
+                font-size: 0.85rem;
+    
+                a{
+                    color: #B18F16;
+                }
+            }
+        }
+    }
+}

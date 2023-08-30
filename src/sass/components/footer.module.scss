@@ -8,8 +8,6 @@
 
     .footContainer{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
     }
     .footHeader{
         display: flex;
@@ -30,10 +28,7 @@
     }
     .footList{
         display: flex;
-        border-right: 1px solid grey;
-        border-left: 1px solid grey;
-        gap: 5em;
-        padding: 0 60px;
+        
 
         ul{
             padding: 0px;
@@ -62,7 +57,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-left: 20px;
+        
     }
     .footersocials a{
         cursor: pointer;
@@ -72,4 +67,56 @@
     .footersocials a:hover{
         color: $accent;
     }
+}
+
+
+
+@media screen and (min-width: 600px){
+    .footList{
+        border-right: 1px solid grey;
+        border-left: 1px solid grey;
+        gap: 5em;
+        padding: 0 60px;
+    }
+    .footContainer{
+         justify-content: space-between;
+    }
+    .footersocials{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .footHeader h1{
+        font-size: 20px;
+    }
+    .footList{
+        // gap: .5em;
+        font-size: 12px;
+    }
+    .footersocials{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .footContainer, .footList{
+        flex-direction: column;
+    }
+    .footContainer, .footHeader, .footersocials, .footerlastchild{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .footList{
+        border-right: none;
+        border-left: none;
+        gap: 0px;
+        padding: 0px;
+    }
+    .footList li:first-child{
+        border-top: 1px solid grey;
+        width: 50px;
+        padding-top: 10px;
+    }
+  
 }

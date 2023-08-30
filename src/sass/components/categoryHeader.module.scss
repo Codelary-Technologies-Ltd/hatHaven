@@ -44,3 +44,27 @@
         }
     }
 }
+
+
+@media screen and (max-width: 426px) {
+    .categoryHeader{
+    
+        &TopNav{
+            padding: 20px 0;
+            p{
+                margin: 0;
+            }
+        }
+    
+        &Content{
+            width: 100%;
+        }
+    
+        &BottomNav{
+            ul{
+                font-size: 0.9rem;
+            }
+        }
+    }
+    
+}

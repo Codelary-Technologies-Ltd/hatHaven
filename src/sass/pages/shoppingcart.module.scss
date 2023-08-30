@@ -11,9 +11,7 @@
     .shopCartHead, .shopCartHead2{
         justify-content: space-between;
     }
-    .shopCartHead, .shopCartBorder{
-        border-bottom: 1px solid $accent;
-    }
+    
     .shopCartHead2{
         gap: 4rem;
     }
@@ -21,13 +19,9 @@
         font-weight: 600;
     }
     
-    .shoph1, .shopCartHead, .shopCartHead2, .shopCartCheckout{
+    .shoph1, .shopCartHead2, .shopCartCheckout{
         display: flex;
     }
-    // .shopCartDetails{
-    //     border: 2px solid green;
-    //     flex-direction: row;
-    // }
     .shopCartCheckout{
         flex-direction: column;
         justify-content: flex-end;
@@ -48,5 +42,34 @@
     .shopCartCheckButton:hover{
         color: $secondary;
         cursor: pointer;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .shopCartHead{
+        font-size: small;
+    }
+    .shopCartHead2{
+        gap: 3rem;
+    }
+}
+@media screen and (min-width: 819px){
+    .shopCartHead, .shopCartBorder{
+        border-bottom: 1px solid $accent;
+    }
+    .shopCartHead{
+        display: flex;
+    }
+   
+}
+@media screen and (max-width: 819px){
+    .shopCartHead{
+        // border-bottom: none;
+        display: none;
+    }
+    .shopCartBorder{
+        border-bottom: 1px solid $accent;
+    }
+    .shoph1 h1{
+        font-size: x-large;
     }
 }

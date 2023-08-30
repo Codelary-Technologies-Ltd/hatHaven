@@ -7,7 +7,6 @@
         justify-content: center;
         align-items: center;
         padding: 3em 0;
-
     }
     .newsContainer{
         display: flex;
@@ -16,9 +15,7 @@
         justify-content: space-around;
         width: 80%;
     }
-    .newsContainer img{
-        width: 300px;
-    }
+    
     .homeText{
         display: flex;
         flex-direction: column;
@@ -50,7 +47,93 @@
         cursor: pointer;
         color: white;
     }
+    .homeNewsHiddenButton{
+        display: none;
+    }
+   
+}
+@media screen and (max-width: 1000px){
+   
+    .homeText p{
+        font-size: 12px;
+    }
+    .homenewsButton{
+        // font-size: 10px;
+        margin-top: 10px;
+    }
+    .homeinputContainer{
+        margin: 3rem 0 0;
+    }
+    
+}
+
+@media screen and (min-width: 950px) {
+    .newsContainer img{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 850px){
+    
     .homeinputContainer{
         margin: 4rem 0 0;
+    }
+    .homenewsInput{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width:949px){
+    .newsContainer img{
+        width: 250px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 849px) {
+    .newsContainer img{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 600px){
+    .newsContainer img{
+        width: 90%;
+    }
+} 
+
+@media screen and (max-width: 850px) {
+    .newsContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .homeinputContainer{
+        margin-top: 2rem;
+        // flex-direction: column;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .homeInputWrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        // border: 1px solid green;
+        width: 100%;
+    }
+    .homeText{
+        width: 100%;
+    }
+    .homeTextWrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        // border: 1px solid blue;
+    }
+    .homeText h3{
+        font-size: x-large;
     }
 }
