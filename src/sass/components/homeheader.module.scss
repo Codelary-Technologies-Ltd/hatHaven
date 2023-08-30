@@ -66,6 +66,8 @@
 @media screen and (max-width: 695px) {
     .homeHeadFlexContainer{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         gap: 0em;
     }
     .homeImgContainerImg{
