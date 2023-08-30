@@ -8,6 +8,8 @@ import img1b from '../assets/png/Rectangle 72.png'
 import img2b from '../assets/png/Rectangle 73b.png'
 import img3b from '../assets/png/Rectangle 74b.png'
 import circle from '../assets/png/Vector 1b.png'
+import { Link } from "react-router-dom";
+
 function HomePageHeader() {
   return (
     <div className={styles2.homeHeaderContainer}>
@@ -32,7 +34,9 @@ function HomePageHeader() {
                             Hat-titude: Wear <span className={styles2.headCircleText}>Your <img src={circle}/></span> 
                             <br/>Personality on Your <br/>Head
                         </p>
+                        <Link to='/category'>
                         <button className={styles2.homeheadButton}>Shop Now</button>
+                        </Link>
                     </aside>
                 </section>
             </div>
