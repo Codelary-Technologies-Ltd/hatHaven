@@ -76,6 +76,7 @@
     .aboutUs{
         &Section{
             width: 95%;
+            margin-top: 0;
             & img{
                 width: 100%;
             }
@@ -118,6 +119,9 @@
 }
 @media screen and (max-width: 900px){
     .aboutUs{
+        & nav{
+            margin-bottom: 20px;
+        }
         &Section{
             width: 100%;
             
@@ -146,6 +150,10 @@
 }
 @media screen and (max-width: 585px){
     .aboutUs{
+        & h1{
+          text-align: center;  
+        }
+        
         &Section{
             flex-direction: column-reverse;
             gap: 20px;
