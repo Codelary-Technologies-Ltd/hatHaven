@@ -11,10 +11,12 @@ function Navbar() {
     <div className={styles.navBar}>
         <nav className='container'>
             <div className={styles.navContainer}>
+                <Link to='/'>
                 <div className={styles.navHeader}>
                     <h1 className={styles.navHead}>HAT</h1>
                     <h1 className={styles.navHead}>HAVEN</h1>
                 </div>
+                </Link>
                 <div className={styles.navList}>
                     <ul>
                       <Link className='linksColor' to='/'>
