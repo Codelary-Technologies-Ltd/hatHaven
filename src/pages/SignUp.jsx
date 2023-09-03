@@ -1,6 +1,8 @@
 import React from 'react'
 import catStyle from "../sass/components/categoryHeader.module.scss";
 import style from "../sass/pages/auth.module.scss";
+import { Link } from "react-router-dom";
+
 const SignUp = () => {
   return (
     <div className='container'>
@@ -29,7 +31,9 @@ const SignUp = () => {
                 </form>
                 <aside>
                     <p>Already have an account?</p>
-                    <a href="#">Log in</a>
+                    <Link to='/login'>
+                        <a href="#">Log in</a>
+                    </Link>
                 </aside>
             </section>
         </div>
