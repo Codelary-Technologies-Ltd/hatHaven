@@ -8,6 +8,7 @@ import ItemCheckout from '../components/ItemCheckout'
 import paypal from '../assets/png/paypal-logo.png'
 import shippingstyles from '../sass/pages/shippinginfo.module.scss'
 import ShippingFooter from '../components/ShippingFooter';
+import {Link} from 'react-router-dom'
 function ShippingInfo() {
       const [value, setValue] = useState('')
       const options = useMemo(() => countryList().getData(), [])
@@ -120,13 +121,17 @@ function ShippingInfo() {
                             <input placeholder='Phone' type='number'/>
                         </div>
                       </section>
-                      <a href='back' className={shippingstyles.infobackarrow}>
+                      <Link to='/shopping-cart'>
+                      <a href='#back' className={shippingstyles.infobackarrow}>
                           <img src={backToCart} alt='back'/>
                           <p className={shippingstyles.infobackbutton}>Return to cart</p>
                       </a>
+                      </Link>
+                      <Link to='/shipping-payment'>
                       <div>
                           <button className={shippingstyles.shipInfoButton}>Continue to Shipping</button>
                       </div>
+                      </Link>
                     </form>
                     <div className={shippingstyles.infofooterdiv}>
                       <ShippingFooter/>
