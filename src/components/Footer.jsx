@@ -16,16 +16,16 @@ function Footer() {
                 </Link>
                 <div className={styles.footList}>
                     <ul>
-                        <Link to='/'>
+                        <Link to='/' className='linksColor'>
                             <li>Home</li>
                         </Link>
-                        <Link to='/shopping-cart'>
+                        <Link to='/shopping-cart' className='linksColor'>
                             <li>Shop</li>
                         </Link>
-                        <Link to='/category'>
+                        <Link to='/category' className='linksColor'>
                             <li>Collection</li>
                         </Link>
-                        <Link to='/about-us'>
+                        <Link to='/about-us' className='linksColor'>
                             <li>About</li>
                         </Link>
                     </ul>
