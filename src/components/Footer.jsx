@@ -9,7 +9,7 @@ function Footer() {
     const scrollToTop = () => {
       window.scrollTo({
         top: 0,
-        behavior: 'smooth', // You can change this to 'auto' for instant scrolling without animation.
+        behavior: 'smooth', 
       });
     };
   return (
