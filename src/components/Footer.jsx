@@ -3,12 +3,20 @@ import styles from '../sass/components/footer.module.scss'
 import twitterIcon from '../assets/png/twitter.png'
 import instaIcon from '../assets/png/insta.png'
 import {Link} from 'react-router-dom'
+
 function Footer() {
+    
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth', // You can change this to 'auto' for instant scrolling without animation.
+      });
+    };
   return (
     <div className={styles.footer}>
         <div className='container'>
             <div className={styles.footContainer}>
-                <Link to='/'>
+                <Link to='/' onClick={scrollToTop}>
                 <div className={styles.footHeader}>
                     <h1 className={styles.footHead}>HAT</h1>
                     <h1 className={styles.footHead}>HAVEN</h1>
@@ -16,16 +24,16 @@ function Footer() {
                 </Link>
                 <div className={styles.footList}>
                     <ul>
-                        <Link to='/' className='linksColor'>
+                        <Link to='/' className='linksColor' onClick={scrollToTop}>
                             <li>Home</li>
                         </Link>
-                        <Link to='/shopping-cart' className='linksColor'>
+                        <Link to='/shopping-cart' className='linksColor' onClick={scrollToTop}>
                             <li>Shop</li>
                         </Link>
-                        <Link to='/category' className='linksColor'>
+                        <Link to='/category' className='linksColor' onClick={scrollToTop}>
                             <li>Collection</li>
                         </Link>
-                        <Link to='/about-us' className='linksColor'>
+                        <Link to='/about-us' className='linksColor' onClick={scrollToTop}>
                             <li>About</li>
                         </Link>
                     </ul>
