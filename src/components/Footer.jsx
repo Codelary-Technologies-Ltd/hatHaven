@@ -25,7 +25,7 @@ function Footer() {
                 <div className={styles.footList}>
                     <ul>
                         <Link to='/' className='linksColor' onClick={scrollToTop}>
-                            <li>Home</li>
+                            <li className={styles.footListBorder}>Home</li>
                         </Link>
                         <Link to='/shopping-cart' className='linksColor' onClick={scrollToTop}>
                             <li>Shop</li>
@@ -39,7 +39,7 @@ function Footer() {
                     </ul>
                 
                     <ul>
-                        <li>FAQ</li>
+                        <li className={styles.footListBorder}>FAQ</li>
                         <li>Contact</li>
                         <li>Help</li>
                         <li>Delivery & Returns</li>
