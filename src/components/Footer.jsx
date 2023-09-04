@@ -2,21 +2,32 @@ import React from 'react'
 import styles from '../sass/components/footer.module.scss'
 import twitterIcon from '../assets/png/twitter.png'
 import instaIcon from '../assets/png/insta.png'
+import {Link} from 'react-router-dom'
 function Footer() {
   return (
     <div className={styles.footer}>
         <div className='container'>
             <div className={styles.footContainer}>
+                <Link to='/'>
                 <div className={styles.footHeader}>
                     <h1 className={styles.footHead}>HAT</h1>
                     <h1 className={styles.footHead}>HAVEN</h1>
                 </div>
+                </Link>
                 <div className={styles.footList}>
                     <ul>
-                        <li>Home</li>
-                        <li>Shop</li>
-                        <li>Collection</li>
-                        <li>About</li>
+                        <Link to='/'>
+                            <li>Home</li>
+                        </Link>
+                        <Link to='/shopping-cart'>
+                            <li>Shop</li>
+                        </Link>
+                        <Link to='/category'>
+                            <li>Collection</li>
+                        </Link>
+                        <Link to='/about-us'>
+                            <li>About</li>
+                        </Link>
                     </ul>
                 
                     <ul>
