@@ -55,16 +55,16 @@ function Navbar() {
                       <span className={styles.hamSpan}></span>
                     <ul className={styles.hamburger}>
                       <Link to='/'>
-                        <a href='#Home'><li>Home</li></a>
+                        <li>Home</li>
                       </Link>
                       <Link to='/category'>
-                        <a href='#shop'><li>Shop</li></a>
+                        <li>Shop</li>
                       </Link>
                       <Link to='/about-us'>
-                        <a href='#about'><li>About</li></a>
+                        <li>About</li>
                       </Link>
                       <Link to='/contact-us'>
-                        <a href='#contact'><li>Contact</li></a>
+                        <li>Contact</li>
                       </Link>
                     </ul>
                   </div>

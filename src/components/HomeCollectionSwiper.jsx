@@ -16,21 +16,49 @@ function HomeCollectionSwiper() {
   SwiperCore.use([Navigation, Pagination, EffectFade, Autoplay]);
   const [view, setView] = useState(4);
   const [space, setSpace] = useState(50);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   useEffect(() => {
+    const watchWindowWidth = () => {
+      setWindowWidth(window.innerWidth);
+
+      //set the view
+      if (window.innerWidth <= 600) {
+        setView(2);
+      } else if (window.innerWidth <= 900) {
+        setView(3);
+      } else if (window.innerWidth <= 1440) {
+        setView(4);
+      }
+
+      //set the space
+      if (window.innerWidth < 480) {
+        setSpace(20);
+      } else if (window.innerWidth <= 900) {
+        setSpace(35);
+      }
+    };
+
+    window.addEventListener("resize", watchWindowWidth);
+
     //set the view
-    if (window.innerWidth <= 600) {
+    if (windowWidth <= 600) {
       setView(2);
-    } else if (window.innerWidth <= 900) {
+    } else if (windowWidth <= 900) {
       setView(3);
     }
 
     //set the space
-    if (window.innerWidth < 480) {
+    if (windowWidth < 480) {
       setSpace(20);
-    } else if (window.innerWidth <= 900) {
+    } else if (windowWidth <= 900) {
       setSpace(35);
     }
-  }, [space, view]);
+
+    //cleanup the side effect for the use effect
+    return () => {
+      window.removeEventListener("resize", watchWindowWidth);
+    };
+  }, []);
 
   // const space = setSpacef();
   // const view = setPerView();
