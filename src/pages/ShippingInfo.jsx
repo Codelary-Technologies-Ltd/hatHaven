@@ -122,7 +122,7 @@ function ShippingInfo() {
                         </div>
                       </section>
                       <Link to='/shopping-cart'>
-                      <a href='#back' className={shippingstyles.infobackarrow}>
+                      <a className={shippingstyles.infobackarrow}>
                           <img src={backToCart} alt='back'/>
                           <p className={shippingstyles.infobackbutton}>Return to cart</p>
                       </a>

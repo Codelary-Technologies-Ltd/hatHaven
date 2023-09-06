@@ -40,7 +40,9 @@ function Footer() {
                 
                     <ul>
                         <li className={styles.footListBorder}>FAQ</li>
+                        <Link to='/contact-us' className='linksColor' onClick={scrollToTop}>
                         <li>Contact</li>
+                        </Link>
                         <li>Help</li>
                         <li>Delivery & Returns</li>
                     </ul>
